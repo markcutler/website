@@ -1,0 +1,49 @@
+@font-face {
+	font-family: "Flaticon";
+	src: url("flaticon.eot");
+	src: url("flaticon.eot#iefix") format("embedded-opentype"),
+	url("flaticon.woff") format("woff"),
+	url("flaticon.ttf") format("truetype"),
+	url("flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}.flaticon-baby63:before {
+	content: "\e000";
+}
+.flaticon-cpu5:before {
+	content: "\e001";
+}
+.flaticon-kids1:before {
+	content: "\e002";
+}
+.flaticon-man362:before {
+	content: "\e003";
+}
+.flaticon-robot32:before {
+	content: "\e004";
+}
+.flaticon-robotic:before {
+	content: "\e005";
+}
+.flaticon-robotic1:before {
+	content: "\e006";
+}
+.flaticon-roboto:before {
+	content: "\e007";
+}
+.flaticon-skiing:before {
+	content: "\e008";
+}
+.flaticon-sleeping4:before {
+	content: "\e009";
+}
+.flaticon-tennis:before {
+	content: "\e00a";
+}
