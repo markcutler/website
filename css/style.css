@@ -1,3 +1,4 @@
+/*@import url("bootstrap.min.css");*/
 @import url("font-awesome.min.css");
 @import url("flaticon.css");
 @import url("http://fonts.googleapis.com/css?family=Lato:300,400,900");
@@ -42,14 +43,14 @@ label {
 	margin: 0 .4em 0 0;
 }
 button {
-	/*display: inline-block;
+	display: inline-block;
 	padding: .4em .8em;
 	background: #666;
 	border: 0;
 	color: #ddd;
-	font-size: 16px;
+	font-size: 1em;
 	font-weight: 300;
-	border-radius: 4px;*/
+	border-radius: 4px;
 	cursor: pointer;
 }
 button.active {
@@ -69,7 +70,13 @@ button + label {
 	-webkit-backface-visibility: hidden;
 }
 .container_pub h1{
-	/*color: blue;*/
+	font-size: 1.3em;
+}
+.container_pub b{
+	font-weight:700;
+}
+.container_pub p{
+	font-size: 0.8;
 }
 .container_pub:after {
 	content: '';
@@ -84,13 +91,18 @@ button + label {
 	text-align: left;
 	background: #f3f6fa;
 	margin-bottom: 2%;
-	display: none;
+	display: inline-block;
+	vertical-align: top;
+	padding: 0% 4%;
 }
 .container_pub .mix.conference {
 	border-top: 5px solid #22B9F8;
 }
 .container_pub .mix.journal {
 	border-top: 5px solid yellow;
+}
+.container_pub .mix.other {
+	border-top: 5px solid red;
 }
 /*.container_pub .mix:after {
 	content: attr(container_puborder);
@@ -104,7 +116,7 @@ button + label {
 .container_pub .mix:before {
 	content: '';
 	display: inline-block;
-	padding-top: 6%;
+	padding-top: 0%;
 }
 
 @media all and (min-width: 420px) {
@@ -297,7 +309,7 @@ input[type="text"],  input[type="password"],  input[type="email"] {
 	-ms-transition: opacity 0.25s ease-in-out;
 	transition: opacity 0.25s ease-in-out;
 }
-.image:before {
+.image.thumbnail:before {
 	background: url("images/overlay.png");
 	opacity: 0.23;
 	content: '';

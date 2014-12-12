@@ -78,15 +78,22 @@
 <!-- One -->
 <section class="wrapper style4 container">
 <div class="controls">
+    <div class="row">
+      <div class="8u 12u(2)">
   <label>Filter:</label>
   <button class="filter" data-filter="all">All</button>
   <button class="filter" data-filter=".conference">Conference Papers</button>
   <button class="filter" data-filter=".journal">Journal Papers</button>
+  <button class="filter" data-filter=".other">Other Papers</button>
+  </div>
+  <div class="4u 6u(2) -3u(2)">
   <label>Sort:</label>
-  <button class="sort" data-sort="myorder:asc"><i class="fa fa-numeric-asc"></i></button>
+  <button class="sort" data-sort="myorder:asc">Asc</button>
   <button class="sort" data-sort="myorder:desc">Desc</button>
+  </div>
+  </div>
 </div>
-<a class="btn btn-danger" href="#">
+<!--a class="btn btn-danger" href="#">
   <i class="fa fa-trash-o fa-lg"></i> Delete</a>
 <a class="btn btn-default btn-sm" href="#">
   <i class="fa fa-cog"></i> Settings</a>
@@ -99,19 +106,104 @@
   <a class="btn btn-default" href="#"><i class="fa fa-align-center"></i></a>
   <a class="btn btn-default" href="#"><i class="fa fa-align-right"></i></a>
   <a class="btn btn-default" href="#"><i class="fa fa-align-justify"></i></a>
-</div>
+</div-->
 <div id="Publications" class="container_pub">
-  <div class="mix conference" data-myorder="2010">
-    <h1>Reinforcement Learning with Multi-Fidelity Simulators</h1>
+  <!--div class="mix conference" data-myorder="2015">
+    <h1>Efficient Reinforcement Learning for Robots using Informative Simulated Priors</h1>
+    <p><b>Mark Cutler</b>, Jonathan P. How<br>
+    IEEE International Conference on Robotics and Automation, May 2015 (submitted), Seattle WA</p>
+  </div>
+    <div class="mix conference" data-myorder="2015">
+    <h1>Decoupled Multiagent Path Planning via Incremental Sequential Convex Programming</h1>
+    <p>Yufan Chen, <b>Mark Cutler</b>, Jonathan P. How<br>
+    IEEE International Conference on Robotics and Automation, May 2015, Seattle WA</p>
+  </div>
+    <div class="mix conference" data-myorder="2013">
+    <a href="http://acl.mit.edu/papers/Chowdary13_ICRA.pdf"  target="_blank"><h1>Rapid Transfer of Controllers Between {UAVs} using Learning Based
+	Adaptive Control</h1></a>
+    <p>Girish Chowdhary, Tongbin Wu, <b>Mark Cutler</b>, Jonathan P. How<br>
+    IEEE International Conference on Robotics and Automation, May 2013, Karlsruhe Germany, pp. 5409-5416</p>
+  </div>
+    <div class="mix conference" data-myorder="2014">
+    <a href="http://acl.mit.edu/papers/Cutler14_ICRA.pdf"  target="_blank"><h1>Reinforcement Learning with Multi-Fidelity Simulators</h1></a>
     <p><b>Mark Cutler</b>, Thomas J. Walsh, Jonathan P. How<br>
     IEEE International Conference on Robotics and Automation, June 2014, Hong Kong, pp. 3888-3895</p>
   </div>
-  <div class="mix journal" data-myorder="2011">
-      <h1>Reinforcement Learning with Multi-Fidelity Simulators</h1>
+    <div class="mix conference" data-myorder="2013">
+    <a href="http://acl.mit.edu/papers/michini-icra-2013.pdf"  target="_blank"><h1>Scalable Reward Learning from Demonstration</h1></a>
+    <p>Bernard Michini, <b>Mark Cutler</b>, Jonathan P. How<br>
+    IEEE International Conference on Robotics and Automation, May 2013, Karlsruhe Germany, pp. 303-308</p>
+  </div>
+  
+  <div class="mix conference" data-myorder="2011">
+    <a href="http://acl.mit.edu/papers/Michini11_ICRA.pdf"  target="_blank"><h1>Design and Flight Testing of an Autonomous Variable-Pitch Quadrotor</h1></a>
+    <p>Bernard Michini, Josh Redding, N. Kemal Ure, <b>Mark Cutler</b>, Jonathan P. How<br>
+    IEEE International Conference on Robotics and Automation, May 2011, Shanghai China, pp. 2978-2979</p>
+  </div>
+   
+  <div class="mix conference" data-myorder="2012">
+    <a href="http://acl.mit.edu/papers/chow_GNC12_conc_applications.pdf"  target="_blank"><h1>Experimental Results of Concurrent Learning Adaptive Controller</h1></a>
+    <p>Girish Chowdhary, Tongbin Wu, <b>Mark Cutler</b>, N. Kemal Ure, Jonathan P. How<br>
+    AIAA Guidance, Navigation, and Control Conference, August 2012, Minneapolis MN, pp. 1-14</p>
+  </div>  
+  
+  <div class="mix conference" data-myorder="2012">
+    <a href="http://acl.mit.edu/papers/2012-uber-compressed.pdf"  target="_blank"><h1>Actuator Constrained Trajectory Generation and Control for Variable-Pitch
+	Quadrotors</h1></a>
+    <p><b>Mark Cutler</b>, Jonathan P. How<br>
+    AIAA Guidance, Navigation, and Control Conference, August 2012, Minneapolis MN, pp. 1-15</p>
+  </div> 
+    
+  <div class="mix conference" data-myorder="2011">
+    <a href="http://acl.mit.edu/papers/GNC11_Cutler_uber.pdf"  target="_blank"><h1>Comparison of Fixed and Variable Pitch Actuators for Agile Quadrotors</h1></a>
+    <p><b>Mark Cutler</b>, N. Kemal Ure, Bernard Michini, Jonathan P. How<br>
+    AIAA Guidance, Navigation, and Control Conference, August 2011, Portland OR, pp. 1-17</p>
+  </div> 
+    
+  <div class="mix conference" data-myorder="2010">
+    <a href="http://acl.mit.edu/papers/Cutler10_GNC.pdf"  target="_blank"><h1>Energy harvesting and mission effectiveness for small unmanned aircraft</h1></a>
+    <p><b>Mark Cutler</b>, Timothy McLain, Randal Beard, and Brian Capozzi<br>
+    AIAA Guidance, Navigation, and Control Conference, August 2010, Toronto Canada, pp. 1-13</p>
+  </div>
+  
+    <div class="mix conference" data-myorder="2013">
+    <a href="http://acl.mit.edu/papers/Cutler13_ICUAS.pdf"  target="_blank"><h1>Lightweight Infrared Sensing for Relative Navigation of Quadrotors</h1></a>
+    <p><b>Mark Cutler</b>, Bernard Michini, Jonathan P. How<br>
+    International Conference on Unmanned Aircraft Systems, May 2013, Atlanta GA, pp. 1156-1164</p>
+  </div>
+  
+    <div class="mix conference" data-myorder="2013">
+    <h1>Decentralized Learning based Planning Multiagent Missions in Presence
+	of Actuator Failures</h1>
+    <p>N. Kemal Ure, Girish Chowdhary, YuFan Chen, <b>Mark Cutler</b>,
+	Jonathan P. How and John Vian<br>
+    International Conference on Unmanned Aircraft Systems, May 2013, Atlanta GA, pp. 1125-1134</p>
+  </div>
+  
+   <div class="mix other" data-myorder="2012">
+    <a href="http://acl.mit.edu/papers/Cutler_Masters12.pdf"  target="_blank"><h1>Design and Control of an Autonomous Variable-Pitch Quadrotor Helicopter</h1></a>
+    <p><b>Mark Cutler</b><br>
+    Massachusetts Institute of Technology, Department of Aeronautics and Astronautics, August 2012</p>
+  </div>
+  
+   <div class="mix other" data-myorder="2013">
+    <h1>Reinforcement Learning with Multi-Fidelity Simulators (Poster)</h1>
     <p><b>Mark Cutler</b>, Thomas J. Walsh, Jonathan P. How<br>
-    IEEE International Conference on Robotics and Automation, June 2014, Hong Kong, pp. 3888-3895</p></div>
-  <div class="gap"></div>
-  <div class="gap"></div>
+    NIPS Transfer and Multi-Task Learning Workshop, December 2013, Lake Tahoe, NV</p>
+  </div-->
+  
+  <div class="mix journal" data-myorder="2009">
+      <h1>Minimum rank of edge subdivisions of graphs</h1>
+    <p>Wayne Barrett, Ryan Bowcutt, <b>Mark Cutler</b>, Seth Gibelyou, Kayla Owens<br>
+    Electronic Journal of Linear Algebra, 2009, Vol. 18, pp. 530-563</p>
+    </div>
+    
+   <div class="mix conference" data-myorder="2009">
+    <h1>Experiment-Based Optimization of Flapping Wing Kinematics</h1>
+    <p>Scott Thomson, Christopher Mattson, Mark Colton, Stephen Harston, Daniel Carlson, <b>Mark Cutler</b><br>
+    AIAA Proceedings of the 47th Aerospace Sciences Meeting, January 2009, Atlanta GA, pp. 1-8</p>
+  </div>
+
 </div>
 
 <!-- Back button -->
@@ -121,7 +213,7 @@
       <section>
         <footer>
           <ul class="buttons">
-            <li><a href="index.html#projects" class="button small">Projects</a></li>
+            <li><a href="index.html#publications" class="button small">Publications</a></li>
           </ul>
         </footer>
       </section>
