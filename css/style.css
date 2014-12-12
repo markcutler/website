@@ -91,7 +91,7 @@ button + label {
 	text-align: left;
 	background: #f3f6fa;
 	margin-bottom: 2%;
-	display: inline-block;
+	display: none;
 	vertical-align: top;
 	padding: 0% 4%;
 }

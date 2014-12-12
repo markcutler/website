@@ -108,7 +108,8 @@
   <a class="btn btn-default" href="#"><i class="fa fa-align-justify"></i></a>
 </div-->
 <div id="Publications" class="container_pub">
-  <!--div class="mix conference" data-myorder="2015">
+<?php include 'Cutler14_ICRA.php'; ?>
+  <div class="mix conference" data-myorder="2015">
     <h1>Efficient Reinforcement Learning for Robots using Informative Simulated Priors</h1>
     <p><b>Mark Cutler</b>, Jonathan P. How<br>
     IEEE International Conference on Robotics and Automation, May 2015 (submitted), Seattle WA</p>
@@ -116,7 +117,7 @@
     <div class="mix conference" data-myorder="2015">
     <h1>Decoupled Multiagent Path Planning via Incremental Sequential Convex Programming</h1>
     <p>Yufan Chen, <b>Mark Cutler</b>, Jonathan P. How<br>
-    IEEE International Conference on Robotics and Automation, May 2015, Seattle WA</p>
+    IEEE International Conference on Robotics and Automation, May 2015 (submitted), Seattle WA</p>
   </div>
     <div class="mix conference" data-myorder="2013">
     <a href="http://acl.mit.edu/papers/Chowdary13_ICRA.pdf"  target="_blank"><h1>Rapid Transfer of Controllers Between {UAVs} using Learning Based
@@ -124,11 +125,7 @@
     <p>Girish Chowdhary, Tongbin Wu, <b>Mark Cutler</b>, Jonathan P. How<br>
     IEEE International Conference on Robotics and Automation, May 2013, Karlsruhe Germany, pp. 5409-5416</p>
   </div>
-    <div class="mix conference" data-myorder="2014">
-    <a href="http://acl.mit.edu/papers/Cutler14_ICRA.pdf"  target="_blank"><h1>Reinforcement Learning with Multi-Fidelity Simulators</h1></a>
-    <p><b>Mark Cutler</b>, Thomas J. Walsh, Jonathan P. How<br>
-    IEEE International Conference on Robotics and Automation, June 2014, Hong Kong, pp. 3888-3895</p>
-  </div>
+    
     <div class="mix conference" data-myorder="2013">
     <a href="http://acl.mit.edu/papers/michini-icra-2013.pdf"  target="_blank"><h1>Scalable Reward Learning from Demonstration</h1></a>
     <p>Bernard Michini, <b>Mark Cutler</b>, Jonathan P. How<br>
@@ -190,7 +187,7 @@
     <h1>Reinforcement Learning with Multi-Fidelity Simulators (Poster)</h1>
     <p><b>Mark Cutler</b>, Thomas J. Walsh, Jonathan P. How<br>
     NIPS Transfer and Multi-Task Learning Workshop, December 2013, Lake Tahoe, NV</p>
-  </div-->
+  </div>
   
   <div class="mix journal" data-myorder="2009">
       <h1>Minimum rank of edge subdivisions of graphs</h1>
