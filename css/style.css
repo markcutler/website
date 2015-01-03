@@ -1,7 +1,7 @@
 /*@import url("bootstrap.min.css");*/
+/*@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css");*/
 @import url("font-awesome.min.css");
 @import url("flaticon.css");
-@import url("normalize.css");
 @import url("demo.css");
 @import url("dialog.css");
 @import url("dialog-sandra.css");
@@ -66,6 +66,57 @@ button:focus {
 button + label {
 	margin-left: 1em;
 }
+
+// Blocks of code
+pre {
+  overflow: auto;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+pre,
+blockquote {
+border: 1px solid #999;
+
+page-break-inside: avoid;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+pre {
+  display: block;
+  padding: 9.5px;
+  margin: 0 0 10px;
+  font-size: 13px;
+  line-height: 1.42857143;
+  color: #333;
+  word-break: break-all;
+  word-wrap: break-word;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+pre code {
+  padding: 0;
+  font-size: inherit;
+  color: inherit;
+  white-space: pre-wrap;
+  background-color: transparent;
+  border-radius: 0;
+}
+.pre-scrollable {
+  max-height: 340px;
+  overflow-y: scroll;
+}
+
+
 .container_pub {
 	padding: 2% 2% 0%;
 	text-align: justify;

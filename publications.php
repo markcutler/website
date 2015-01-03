@@ -80,16 +80,17 @@
 <div class="controls">
   <div class="row">
     <div class="8u 12u(2)">
-      <label>Filter:</label>
       <button class="filter" data-filter="all">All</button>
       <button class="filter" data-filter=".conference">Conference Papers</button>
       <button class="filter" data-filter=".journal">Journal Papers</button>
       <button class="filter" data-filter=".other">Other Papers</button>
     </div>
     <div class="4u 6u(2) -3u(2)">
-      <label>Sort:</label>
-      <button class="sort" data-sort="myorder:asc">Asc</button>
-      <button class="sort" data-sort="myorder:desc">Desc</button>
+      <label>Year:</label>
+      <button class="sort" data-sort="myorder:asc"><i class="fa fa-sort-numeric-asc"></i></button>
+      <button class="sort" data-sort="myorder:desc"><i class="fa fa-sort-numeric-desc"></i></button>
+      <!--button class="sort" data-sort="myorder:asc">Asc</button-->
+      <!--button class="sort" data-sort="myorder:desc">Desc</button-->
     </div>
   </div>
 </div>
@@ -113,13 +114,10 @@
     <h1>Efficient Reinforcement Learning for Robots using Informative Simulated Priors</h1>
     <p><b>Mark Cutler</b>, Jonathan P. How<br>
       IEEE International Conference on Robotics and Automation, May 2015 (submitted), Seattle WA</p>
-    <div class="content">
-      <header class="codrops-header">
-        <div class="button-wrap">
-          <button data-dialog="somedialog" class="trigger">Bibtex</button>
-        </div>
-      </header>
-      <div id="somedialog" class="dialog">
+      
+    <div class="content_dialog">
+      <button data-dialog="Cutler14_ICRA_bib" class="btn"><i class="fa fa-quote-left"></i></button>
+      <div id="Cutler14_ICRA_bib" class="dialog">
         <div class="dialog__overlay"></div>
         <div class="dialog__content">
           <pre>
@@ -140,7 +138,9 @@
         </div>
       </div>
     </div>
-    <!-- /content --> 
+    <!-- /content -->
+    
+     
   </div>
   <div class="mix conference" data-myorder="2015">
     <h1>Decoupled Multiagent Path Planning via Incremental Sequential Convex Programming</h1>
@@ -153,7 +153,32 @@
     </a>
     <p>Girish Chowdhary, Tongbin Wu, <b>Mark Cutler</b>, Jonathan P. How<br>
       IEEE International Conference on Robotics and Automation, May 2013, Karlsruhe Germany, pp. 5409-5416</p>
+          <!--div class="content_dialog">
+      <button data-dialog=Chowdary13_ICRA_bib class="btn"><i class="fa fa-quote-left"></i></button>
+      <div id="Chowdary13_ICRA_bib" class="dialog">
+        <div class="dialog__overlay"></div>
+        <div class="dialog__content">
+          <pre>
+ @INPROCEEDINGS{Michini11_ICRA,
+  author = {Michini, B. and Redding, J. and Ure, N. K. and Cutler, M. and How,
+	J. P.},
+  title = {Design and Flight Testing of an Autonomous Variable-Pitch Quadrotor},
+  booktitle = {IEEE International Conference on Robotics and Automation (ICRA)},
+  year = {2011},
+  pages = {2978--2979},
+  month = {May},
+  organization = {IEEE},
+  url = {http://acl.mit.edu/papers/Michini11_ICRA.pdf}
+}</pre>
+          <div>
+            <button class="action" data-dialog-close>Close</button>
+          </div>
+        </div>
+      </div>
+    </div-->
+    <!-- /content --> 
   </div>
+  
   <div class="mix conference" data-myorder="2013"> <a href="http://acl.mit.edu/papers/michini-icra-2013.pdf"  target="_blank">
     <h1>Scalable Reward Learning from Demonstration</h1>
     </a>
@@ -165,7 +190,29 @@
     </a>
     <p>Bernard Michini, Josh Redding, N. Kemal Ure, <b>Mark Cutler</b>, Jonathan P. How<br>
       IEEE International Conference on Robotics and Automation, May 2011, Shanghai China, pp. 2978-2979</p>
+      
+      
+      <div class="content_dialog">
+      <button data-dialog="Michini13_ICRA_bib" class="btn"><i class="fa fa-quote-left"></i></button>
+      <div id="Michini13_ICRA_bib" class="dialog">
+        <div class="dialog__overlay"></div>
+        <div class="dialog__content">
+          <pre>
+ testing this code</pre>
+          <div>
+            <button class="action" data-dialog-close>Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /content -->
+      
+      
   </div>
+  
+  
+  
+  
   <div class="mix conference" data-myorder="2012"> <a href="http://acl.mit.edu/papers/chow_GNC12_conc_applications.pdf"  target="_blank">
     <h1>Experimental Results of Concurrent Learning Adaptive Controller</h1>
     </a>
@@ -263,15 +310,15 @@
 <script src="js/classie.js"></script> 
 <script src="js/dialogFx.js"></script> 
 <script>
-			(function() {
-
-				var dlgtrigger = document.querySelector( '[data-dialog]' ),
-					somedialog = document.getElementById( dlgtrigger.getAttribute( 'data-dialog' ) ),
-					dlg = new DialogFx( somedialog );
-
-				dlgtrigger.addEventListener( 'click', dlg.toggle.bind(dlg) );
-
-			})();
+            (function() {
+ 
+    [].slice.call( document.querySelectorAll( '[data-dialog]' ) ).forEach( function( trigger ) {
+        var dlg = new DialogFx( document.getElementById( trigger.getAttribute( 'data-dialog' ) ) );
+ 
+        trigger.addEventListener( 'click', dlg.toggle.bind(dlg) );
+    } );
+ 
+})();
 		</script>
 </body>
 </html>
