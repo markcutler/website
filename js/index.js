@@ -1,3 +1,7 @@
 $(function(){
-  $('#Publications').mixItUp();
+  $('#Publications').mixItUp({
+    load: {
+        sort: 'myorder:desc'
+    }
+});
 });

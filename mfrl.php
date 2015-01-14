@@ -18,6 +18,10 @@
 <script src="js/skel.min.js"></script>
 <script src="js/skel-layers.min.js"></script>
 <script src="js/init.js"></script>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
+<script src="js/index.js"></script>
+<script src="js/modernizr.custom.js"></script>
 <noscript>
 <link rel="stylesheet" href="css/skel.css" />
 <link rel="stylesheet" href="css/style.css" />
@@ -125,23 +129,23 @@ the 'restraining' element.
       </section>
     </div>
   </section>
-  <section id="experience" class="wrapper style2 container special-alt">
-    <header class="special container">
-      <h2><strong>Related Publications</strong></h2>
-    </header>
-    <div class="row half">
-      <div class="4u">
-        <header>
-          <h1> Fill in</h1>
-        </header>
-      </div>
+  
+    <!-- One -->
+  <section id="related_publications" class="wrapper style2 container special-alt">
+<header class="container">
+  <h2><strong>Related Publications</strong></h2>
+</header>
+    <div id="Publications" class="container_pub alt">
+      <?php include 'publications/Cutler14_ICRA.php'; ?>
+      <?php include 'publications/Cutler15_ICRA.php'; ?>
+      <?php include 'publications/Cutler14_TRO.php'; ?>
     </div>
   </section>
   
   <!-- Back button -->
   <section class="wrapper style1 container special">
     <div class="row">
-      <div class="4u -4u">
+      <div class="12u">
         <section>
           <footer>
             <ul class="buttons">
@@ -161,5 +165,18 @@ the 'restraining' element.
     <li>Template inspired by <a href="http://html5up.net">HTML5 UP</a></li>
   </ul>
 </footer>
+<script src="js/classie.js"></script> 
+<script src="js/dialogFx.js"></script> 
+<script>
+            (function() {
+ 
+    [].slice.call( document.querySelectorAll( '[data-dialog]' ) ).forEach( function( trigger ) {
+        var dlg = new DialogFx( document.getElementById( trigger.getAttribute( 'data-dialog' ) ) );
+ 
+        trigger.addEventListener( 'click', dlg.toggle.bind(dlg) );
+    } );
+ 
+})();
+		</script>
 </body>
 </html>

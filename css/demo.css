@@ -30,13 +30,13 @@ a {
 }
 
 a:hover, a:focus {
-	color: #c94e50;
+	/*color: #c94e50;*/
 	outline: none;
 }
 
 .btn {
   background: transparent; 
-  color: #c94e50;
+  color: #56C94E; /*#c94e50;*/
   display: inline-block;
   border-radius: 0px;
   opacity: 0.2;

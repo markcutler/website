@@ -44,6 +44,12 @@
 	opacity: 0;
 }
 
+
+.dialog__content.alt {
+	line-height: 140%;	
+}
+
+
 .dialog--open .dialog__content {
 	pointer-events: auto;
 }

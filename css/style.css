@@ -2,7 +2,6 @@
 /*@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css");*/
 @import url("font-awesome.min.css");
 @import url("flaticon.css");
-@import url("demo.css");
 @import url("dialog.css");
 @import url("dialog-sandra.css");
 @import url("http://fonts.googleapis.com/css?family=Lato:300,400,900");
@@ -120,36 +119,43 @@ pre code {
 .container_pub {
 	padding: 2% 2% 0%;
 	text-align: justify;
-	/*font-size: 0.6px;*/
-	background: #ffffff;
+	background: inherit; /*#f3f6fa;*/
 	-webkit-backface-visibility: hidden;
+	line-height: 100%;
 }
-.container_pub h1{
-	font-size: 1.3em;
+.container_pub .alt {
+	backgroud: #F06D6F;
+}
+.container_pub .title{
+    font-size: 1.15em;
+	line-height: 120%;
+	font-weight: 400;
 }
 .container_pub b{
-	font-weight:700;
+	font-weight:600;
 }
-.container_pub p{
-	font-size: 0.8;
+.container_pub .authors{
+	font-size: 0.9em;
+	line-height: 110%;
 }
-.container_pub:after {
-	content: '';
-	display: inline-block;
-	width: 100%;
+.container_pub .other{
+	font-size: 0.8em;
 }
+
 .container_pub .mix, .container_pub .gap {
-	display: inline-block;
+	display: none;
 	width: 100%;
+    background: #B4E4DE;
+    margin-bottom: 1.2%;
+	padding: 0.5% 1.5%;
 }
-.container_pub .mix {
+/*.container_pub .mix {
 	text-align: left;
-	background: #f3f6fa;
 	margin-bottom: 2%;
 	display: none;
 	vertical-align: top;
-	padding: 0% 4%;
-}
+	padding: 0% 2.5%;
+}*/
 .container_pub .mix.conference {
 	border-top: 5px solid #22B9F8;
 }
@@ -159,20 +165,13 @@ pre code {
 .container_pub .mix.other {
 	border-top: 5px solid red;
 }
-/*.container_pub .mix:after {
-	content: attr(container_puborder);
-	color: white;
-	font-size: 61px;
-	display: inline-block;
-	vertical-align: top;
-	padding: 4% 6%;
-	font-weight: 700;
-}*/
+/*.container_pub .mix {
+	border-bottom: 10px solid white;
+}
 .container_pub .mix:before {
 	content: '';
 	display: inline-block;
-	padding-top: 0%;
-}
+}*/
 
 @media all and (min-width: 420px) {
 .container_pub .mix,  .container_pub .gap {
@@ -671,6 +670,37 @@ table.default thead {
 }
 /* Button */
 
+.btn {
+  background: transparent; 
+  color: #56C94E; /*#c94e50;*/
+  display: inline-block;
+  border-radius: 0px;
+  opacity: 0.2;
+  /*line-height: 2.5em;*/
+  text-decoration: none; 
+}
+
+.btn:hover { 
+  opacity: 1;
+}
+
+.btn:active { 
+  opacity: 1;
+}
+
+.content_dialog {
+	max-width: 1000px;
+	padding: 0 0em;
+	margin: 0 auto;
+	text-align: right;
+	-webkit-touch-callout: none;
+	/*-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;*/
+}
+
 input[type="button"],  input[type="submit"],  input[type="reset"],  .button {
 	-moz-appearance: none;
 	-webkit-appearance: none;
@@ -705,6 +735,48 @@ input[type="button"].special,  input[type="submit"].special,  input[type="reset"
 	background: #83d3c9;
 	border-color: #83d3c9;
 	color: white !important;
+}
+input[type="button"].icon,  input[type="submit"].icon,  input[type="reset"].icon,  .button.icon {
+	font-size: 0.8em;
+	font-weight: 500;
+	letter-spacing: initial;
+	border: none;
+	min-width: initial;
+	padding: 0em 0em;
+	line-height: initial;
+	text-align: center;
+	text-decoration: none;
+	text-transform: initial;
+	color: black;
+	background-color: initial;
+	opacity: 0.35;
+	float: right;
+}
+input[type="button"].link,  input[type="submit"].link,  input[type="reset"].link,  .button.link{
+    background:none!important;
+     border:none; 
+     padding:0!important;
+     cursor: pointer;
+	-moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+	-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+	-o-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+	-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+	transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+	text-decoration: none;
+	text-transform:none;
+	border-bottom: dotted 1px;
+	font-size: 0.9em;
+	line-height: 1em;
+	font-weight:100;
+	min-width: 0em;
+	border-radius:0px;
+}
+input[type="button"].link:hover,  input[type="submit"].link:hover,  input[type="reset"].link:hover,  .button.link:hover{
+	border-bottom-color: transparent;
+}
+}
+input[type="button"].icon:hover,  input[type="submit"].icon:hover,  input[type="reset"].icon:hover,  .button.icon:hover {
+	opacity: 0.85;
 }
 input[type="button"].special:hover,  input[type="submit"].special:hover,  input[type="reset"].special:hover,  .button.special:hover {
 	background: #96dad1 !important;
@@ -1285,4 +1357,154 @@ body.index #main {
 #topPanel .indent-5,  #sidePanel .indent-5 {
 	display: inline-block;
 	width: 5em;
+}
+.reset-this {
+    animation : none;
+    animation-delay : 0;
+    animation-direction : normal;
+    animation-duration : 0;
+    animation-fill-mode : none;
+    animation-iteration-count : 1;
+    animation-name : none;
+    animation-play-state : running;
+    animation-timing-function : ease;
+    backface-visibility : visible;
+    background : 0;
+    background-attachment : scroll;
+    background-clip : border-box;
+    background-color : transparent;
+    background-image : none;
+    background-origin : padding-box;
+    background-position : 0 0;
+    background-position-x : 0;
+    background-position-y : 0;
+    background-repeat : repeat;
+    background-size : auto auto;
+    border : 0;
+    border-style : none;
+    border-width : medium;
+    border-color : inherit;
+    border-bottom : 0;
+    border-bottom-color : inherit;
+    border-bottom-left-radius : 0;
+    border-bottom-right-radius : 0;
+    border-bottom-style : none;
+    border-bottom-width : medium;
+    border-collapse : separate;
+    border-image : none;
+    border-left : 0;
+    border-left-color : inherit;
+    border-left-style : none;
+    border-left-width : medium;
+    border-radius : 0;
+    border-right : 0;
+    border-right-color : inherit;
+    border-right-style : none;
+    border-right-width : medium;
+    border-spacing : 0;
+    border-top : 0;
+    border-top-color : inherit;
+    border-top-left-radius : 0;
+    border-top-right-radius : 0;
+    border-top-style : none;
+    border-top-width : medium;
+    bottom : auto;
+    box-shadow : none;
+    box-sizing : content-box;
+    caption-side : top;
+    clear : none;
+    clip : auto;
+    color : inherit;
+    columns : auto;
+    column-count : auto;
+    column-fill : balance;
+    column-gap : normal;
+    column-rule : medium none currentColor;
+    column-rule-color : currentColor;
+    column-rule-style : none;
+    column-rule-width : none;
+    column-span : 1;
+    column-width : auto;
+    content : normal;
+    counter-increment : none;
+    counter-reset : none;
+    cursor : auto;
+    direction : ltr;
+    display : inline;
+    empty-cells : show;
+    float : none;
+    font : normal;
+    font-family : inherit;
+    font-size : medium;
+    font-style : normal;
+    font-variant : normal;
+    font-weight : normal;
+    height : auto;
+    hyphens : none;
+    left : auto;
+    letter-spacing : normal;
+    line-height : normal;
+    list-style : none;
+    list-style-image : none;
+    list-style-position : outside;
+    list-style-type : disc;
+    margin : 0;
+    margin-bottom : 0;
+    margin-left : 0;
+    margin-right : 0;
+    margin-top : 0;
+    max-height : none;
+    max-width : none;
+    min-height : 0;
+    min-width : 0;
+    opacity : 1;
+    orphans : 0;
+    outline : 0;
+    outline-color : invert;
+    outline-style : none;
+    outline-width : medium;
+    overflow : visible;
+    overflow-x : visible;
+    overflow-y : visible;
+    padding : 0;
+    padding-bottom : 0;
+    padding-left : 0;
+    padding-right : 0;
+    padding-top : 0;
+    page-break-after : auto;
+    page-break-before : auto;
+    page-break-inside : auto;
+    perspective : none;
+    perspective-origin : 50% 50%;
+    position : static;
+    /* May need to alter quotes for different locales (e.g fr) */
+    quotes : '\201C' '\201D' '\2018' '\2019';
+    right : auto;
+    tab-size : 8;
+    table-layout : auto;
+    text-align : inherit;
+    text-align-last : auto;
+    text-decoration : none;
+    text-decoration-color : inherit;
+    text-decoration-line : none;
+    text-decoration-style : solid;
+    text-indent : 0;
+    text-shadow : none;
+    text-transform : none;
+    top : auto;
+    transform : none;
+    transform-style : flat;
+    transition : none;
+    transition-delay : 0s;
+    transition-duration : 0s;
+    transition-property : none;
+    transition-timing-function : ease;
+    unicode-bidi : normal;
+    vertical-align : baseline;
+    visibility : visible;
+    white-space : normal;
+    widows : 0;
+    width : auto;
+    word-spacing : normal;
+    z-index : auto;
 }

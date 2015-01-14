@@ -6,7 +6,7 @@
 -->
 <html>
 <head>
-<title>Mark Cutler - Variable-Pitch Quadrotor</title>
+<title>Mark Cutler - Publications</title>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <meta name="description" content="" />
 <meta name="keywords" content="" />
@@ -20,8 +20,7 @@
 <script src="js/init.js"></script>
 <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
-<script src="js/index.js"></script>
-<script src="js/modernizr.custom.js"></script>
+<script src="mixitup/js/index.js"></script>
 <noscript>
 <link rel="stylesheet" href="css/skel.css" />
 <link rel="stylesheet" href="css/style.css" />
@@ -70,241 +69,88 @@
 
 <!-- Main -->
 <article id="main">
-<header class="special container"> <span class="icon fa-file"></span>
-  <h2>Publications</h2>
-  <!--p>Where that in the center faces the nameless horrors alone.</p--> 
-</header>
-
-<!-- One -->
-<section class="wrapper style4 container">
-<div class="controls">
-  <div class="row">
-    <div class="8u 12u(2)">
-      <button class="filter" data-filter="all">All</button>
-      <button class="filter" data-filter=".conference">Conference Papers</button>
-      <button class="filter" data-filter=".journal">Journal Papers</button>
-      <button class="filter" data-filter=".other">Other Papers</button>
-    </div>
-    <div class="4u 6u(2) -3u(2)">
-      <label>Year:</label>
-      <button class="sort" data-sort="myorder:asc"><i class="fa fa-sort-numeric-asc"></i></button>
-      <button class="sort" data-sort="myorder:desc"><i class="fa fa-sort-numeric-desc"></i></button>
-      <!--button class="sort" data-sort="myorder:asc">Asc</button-->
-      <!--button class="sort" data-sort="myorder:desc">Desc</button-->
-    </div>
-  </div>
-</div>
-<!--a class="btn btn-danger" href="#">
-  <i class="fa fa-trash-o fa-lg"></i> Delete</a>
-<a class="btn btn-default btn-sm" href="#">
-  <i class="fa fa-cog"></i> Settings</a>
-
-<a class="btn btn-lg btn-success" href="#">
-  <i class="fa fa-flag fa-2x pull-left"></i> Font Awesome<br>Version 4.2.0</a>
-
-<div class="btn-group">
-  <a class="btn btn-default" href="#"><i class="fa fa-align-left"></i></a>
-  <a class="btn btn-default" href="#"><i class="fa fa-align-center"></i></a>
-  <a class="btn btn-default" href="#"><i class="fa fa-align-right"></i></a>
-  <a class="btn btn-default" href="#"><i class="fa fa-align-justify"></i></a>
-</div-->
-<div id="Publications" class="container_pub">
-  <?php include 'Cutler14_ICRA.php'; ?>
-  <div class="mix conference" data-myorder="2015">
-    <h1>Efficient Reinforcement Learning for Robots using Informative Simulated Priors</h1>
-    <p><b>Mark Cutler</b>, Jonathan P. How<br>
-      IEEE International Conference on Robotics and Automation, May 2015 (submitted), Seattle WA</p>
-      
-    <div class="content_dialog">
-      <button data-dialog="Cutler14_ICRA_bib" class="btn"><i class="fa fa-quote-left"></i></button>
-      <div id="Cutler14_ICRA_bib" class="dialog">
-        <div class="dialog__overlay"></div>
-        <div class="dialog__content">
-          <pre>
- @INPROCEEDINGS{Michini11_ICRA,
-  author = {Michini, B. and Redding, J. and Ure, N. K. and Cutler, M. and How,
-	J. P.},
-  title = {Design and Flight Testing of an Autonomous Variable-Pitch Quadrotor},
-  booktitle = {IEEE International Conference on Robotics and Automation (ICRA)},
-  year = {2011},
-  pages = {2978--2979},
-  month = {May},
-  organization = {IEEE},
-  url = {http://acl.mit.edu/papers/Michini11_ICRA.pdf}
-}</pre>
-          <div>
-            <button class="action" data-dialog-close>Close</button>
-          </div>
+  <header class="special container"> <span class="icon fa-file"></span>
+    <h2>Publications</h2>
+  </header>
+  
+  <!-- One -->
+  <section class="wrapper style4 container">
+    <div class="controls">
+      <div class="row">
+        <div class="8u 12u(2)">
+          <button class="filter" data-filter="all">All</button>
+          <button class="filter" data-filter=".conference">Conference Papers</button>
+          <button class="filter" data-filter=".journal">Journal Papers</button>
+          <button class="filter" data-filter=".other">Other Papers</button>
+        </div>
+        <div class="4u 6u(2) -3u(2)">
+          <label>Year:</label>
+          <button class="sort" data-sort="myorder:desc"><i class="fa fa-sort-numeric-desc"></i></button>
+          <button class="sort" data-sort="myorder:asc"><i class="fa fa-sort-numeric-asc"></i></button>
         </div>
       </div>
     </div>
-    <!-- /content -->
-    
-     
-  </div>
-  <div class="mix conference" data-myorder="2015">
-    <h1>Decoupled Multiagent Path Planning via Incremental Sequential Convex Programming</h1>
-    <p>Yufan Chen, <b>Mark Cutler</b>, Jonathan P. How<br>
-      IEEE International Conference on Robotics and Automation, May 2015 (submitted), Seattle WA</p>
-  </div>
-  <div class="mix conference" data-myorder="2013"> <a href="http://acl.mit.edu/papers/Chowdary13_ICRA.pdf"  target="_blank">
-    <h1>Rapid Transfer of Controllers Between {UAVs} using Learning Based
-      Adaptive Control</h1>
-    </a>
-    <p>Girish Chowdhary, Tongbin Wu, <b>Mark Cutler</b>, Jonathan P. How<br>
-      IEEE International Conference on Robotics and Automation, May 2013, Karlsruhe Germany, pp. 5409-5416</p>
-          <!--div class="content_dialog">
-      <button data-dialog=Chowdary13_ICRA_bib class="btn"><i class="fa fa-quote-left"></i></button>
-      <div id="Chowdary13_ICRA_bib" class="dialog">
-        <div class="dialog__overlay"></div>
-        <div class="dialog__content">
-          <pre>
- @INPROCEEDINGS{Michini11_ICRA,
-  author = {Michini, B. and Redding, J. and Ure, N. K. and Cutler, M. and How,
-	J. P.},
-  title = {Design and Flight Testing of an Autonomous Variable-Pitch Quadrotor},
-  booktitle = {IEEE International Conference on Robotics and Automation (ICRA)},
-  year = {2011},
-  pages = {2978--2979},
-  month = {May},
-  organization = {IEEE},
-  url = {http://acl.mit.edu/papers/Michini11_ICRA.pdf}
-}</pre>
-          <div>
-            <button class="action" data-dialog-close>Close</button>
-          </div>
-        </div>
-      </div>
-    </div-->
-    <!-- /content --> 
-  </div>
-  
-  <div class="mix conference" data-myorder="2013"> <a href="http://acl.mit.edu/papers/michini-icra-2013.pdf"  target="_blank">
-    <h1>Scalable Reward Learning from Demonstration</h1>
-    </a>
-    <p>Bernard Michini, <b>Mark Cutler</b>, Jonathan P. How<br>
-      IEEE International Conference on Robotics and Automation, May 2013, Karlsruhe Germany, pp. 303-308</p>
-  </div>
-  <div class="mix conference" data-myorder="2011"> <a href="http://acl.mit.edu/papers/Michini11_ICRA.pdf"  target="_blank">
-    <h1>Design and Flight Testing of an Autonomous Variable-Pitch Quadrotor</h1>
-    </a>
-    <p>Bernard Michini, Josh Redding, N. Kemal Ure, <b>Mark Cutler</b>, Jonathan P. How<br>
-      IEEE International Conference on Robotics and Automation, May 2011, Shanghai China, pp. 2978-2979</p>
-      
-      
-      <div class="content_dialog">
-      <button data-dialog="Michini13_ICRA_bib" class="btn"><i class="fa fa-quote-left"></i></button>
-      <div id="Michini13_ICRA_bib" class="dialog">
-        <div class="dialog__overlay"></div>
-        <div class="dialog__content">
-          <pre>
- testing this code</pre>
-          <div>
-            <button class="action" data-dialog-close>Close</button>
-          </div>
-        </div>
+    <div id="Publications" class="container_pub">
+      <?php include 'publications/Michini11_ICRA.php'; ?>
+      <?php include 'publications/Cutler14_ICRA.php'; ?>
+      <?php include 'publications/Cutler15_ICRA.php'; ?>
+      <?php include 'publications/Cutler14_TRO.php'; ?>
+      <?php include 'publications/Chen15_ICRA.php'; ?>
+      <?php include 'publications/Cutler12_GNC.php'; ?>
+      <?php include 'publications/Ure13_ICUAS.php'; ?>
+      <?php include 'publications/Chowdhary13_ICRA.php'; ?>
+      <?php include 'publications/Michini13_ICRA.php'; ?>
+      <?php include 'publications/Cutler13_NIPS.php'; ?>
+      <?php include 'publications/Cutler13_ICUAS.php'; ?>
+      <?php include 'publications/Cutler12_Masters.php'; ?>
+      <?php include 'publications/Chowdhary12_GNC.php'; ?>
+      <?php include 'publications/Cutler11_GNC.php'; ?>
+      <?php include 'publications/Cutler10_GNC.php'; ?>
+      <?php include 'publications/Thomson09_ASM.php'; ?>
+      <?php include 'publications/Barrett09_EJLA.php'; ?>
+      <div class="mix journal" data-myorder="2014">
+        <h1>Analysis and Control of a Variable-Pitch Quadrotor for Agile Flight</h1>
+        <p><b>Mark Cutler</b>, Jonathan P. How<br>
+          ASME Journal of Dynamic Systems, Measurement and Control, 2014 (submitted)</p>
       </div>
     </div>
-    <!-- /content -->
-      
-      
-  </div>
+  </section>
   
-  
-  
-  
-  <div class="mix conference" data-myorder="2012"> <a href="http://acl.mit.edu/papers/chow_GNC12_conc_applications.pdf"  target="_blank">
-    <h1>Experimental Results of Concurrent Learning Adaptive Controller</h1>
-    </a>
-    <p>Girish Chowdhary, Tongbin Wu, <b>Mark Cutler</b>, N. Kemal Ure, Jonathan P. How<br>
-      AIAA Guidance, Navigation, and Control Conference, August 2012, Minneapolis MN, pp. 1-14</p>
-  </div>
-  <div class="mix conference" data-myorder="2012"> <a href="http://acl.mit.edu/papers/2012-uber-compressed.pdf"  target="_blank">
-    <h1>Actuator Constrained Trajectory Generation and Control for Variable-Pitch
-      Quadrotors</h1>
-    </a>
-    <p><b>Mark Cutler</b>, Jonathan P. How<br>
-      AIAA Guidance, Navigation, and Control Conference, August 2012, Minneapolis MN, pp. 1-15</p>
-  </div>
-  <div class="mix conference" data-myorder="2011"> <a href="http://acl.mit.edu/papers/GNC11_Cutler_uber.pdf"  target="_blank">
-    <h1>Comparison of Fixed and Variable Pitch Actuators for Agile Quadrotors</h1>
-    </a>
-    <p><b>Mark Cutler</b>, N. Kemal Ure, Bernard Michini, Jonathan P. How<br>
-      AIAA Guidance, Navigation, and Control Conference, August 2011, Portland OR, pp. 1-17</p>
-  </div>
-  <div class="mix conference" data-myorder="2010"> <a href="http://acl.mit.edu/papers/Cutler10_GNC.pdf"  target="_blank">
-    <h1>Energy harvesting and mission effectiveness for small unmanned aircraft</h1>
-    </a>
-    <p><b>Mark Cutler</b>, Timothy McLain, Randal Beard, and Brian Capozzi<br>
-      AIAA Guidance, Navigation, and Control Conference, August 2010, Toronto Canada, pp. 1-13</p>
-  </div>
-  <div class="mix conference" data-myorder="2013"> <a href="http://acl.mit.edu/papers/Cutler13_ICUAS.pdf"  target="_blank">
-    <h1>Lightweight Infrared Sensing for Relative Navigation of Quadrotors</h1>
-    </a>
-    <p><b>Mark Cutler</b>, Bernard Michini, Jonathan P. How<br>
-      International Conference on Unmanned Aircraft Systems, May 2013, Atlanta GA, pp. 1156-1164</p>
-  </div>
-  <div class="mix conference" data-myorder="2013">
-    <h1>Decentralized Learning based Planning Multiagent Missions in Presence
-      of Actuator Failures</h1>
-    <p>N. Kemal Ure, Girish Chowdhary, YuFan Chen, <b>Mark Cutler</b>,
-      Jonathan P. How and John Vian<br>
-      International Conference on Unmanned Aircraft Systems, May 2013, Atlanta GA, pp. 1125-1134</p>
-  </div>
-  <div class="mix other" data-myorder="2012"> <a href="http://acl.mit.edu/papers/Cutler_Masters12.pdf"  target="_blank">
-    <h1>Design and Control of an Autonomous Variable-Pitch Quadrotor Helicopter</h1>
-    </a>
-    <p><b>Mark Cutler</b><br>
-      Massachusetts Institute of Technology, Department of Aeronautics and Astronautics, August 2012</p>
-  </div>
-  <div class="mix other" data-myorder="2013">
-    <h1>Reinforcement Learning with Multi-Fidelity Simulators (Poster)</h1>
-    <p><b>Mark Cutler</b>, Thomas J. Walsh, Jonathan P. How<br>
-      NIPS Transfer and Multi-Task Learning Workshop, December 2013, Lake Tahoe, NV</p>
-  </div>
-  <div class="mix journal" data-myorder="2009">
-    <h1>Minimum rank of edge subdivisions of graphs</h1>
-    <p>Wayne Barrett, Ryan Bowcutt, <b>Mark Cutler</b>, Seth Gibelyou, Kayla Owens<br>
-      Electronic Journal of Linear Algebra, 2009, Vol. 18, pp. 530-563</p>
-  </div>
-  <div class="mix journal" data-myorder="2014">
-    <h1>Real-World Reinforcement Learning via Multi-Fidelity Simulators</h1>
-    <p><b>Mark Cutler</b>, Thomas J. Walsh, Jonathan P. How<br>
-      IEEE Transactions on Robotics, 2014 (submitted)</p>
-  </div>
-  <div class="mix journal" data-myorder="2014">
-    <h1>Analysis and Control of a Variable-Pitch Quadrotor for Agile Flight</h1>
-    <p><b>Mark Cutler</b>, Jonathan P. How<br>
-      ASME Journal of Dynamic Systems, Measurement and Control, 2014 (submitted)</p>
-  </div>
-  <div class="mix conference" data-myorder="2009">
-    <h1>Experiment-Based Optimization of Flapping Wing Kinematics</h1>
-    <p>Scott Thomson, Christopher Mattson, Mark Colton, Stephen Harston, Daniel Carlson, <b>Mark Cutler</b><br>
-      AIAA Proceedings of the 47th Aerospace Sciences Meeting, January 2009, Atlanta GA, pp. 1-8</p>
-  </div>
-</div>
-
-<!-- Back button -->
-<section class="wrapper style1 container special">
-  <div class="row">
-    <div class="4u -4u">
-      <section>
-        <footer>
-          <ul class="buttons">
-            <li><a href="index.html#publications" class="button small">Publications</a></li>
-          </ul>
-        </footer>
-      </section>
+  <!-- Back button -->
+  <section class="wrapper style1 container special">
+    <div class="row">
+      <div class="12u">
+        <section>
+          <footer>
+            <ul class="buttons">
+              <li><a href="index.html#publications" class="button small">Back</a></li>
+            </ul>
+          </footer>
+        </section>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 </article>
 
 <!-- Footer -->
 <footer id="footer">
-  <ul class="copyright">
-    <li>&copy; Mark Cutler <script>document.write(new Date().getFullYear())</script></li>
-    <li>Template inspired by <a href="http://html5up.net">HTML5 UP</a></li>
+  <ul id="Publications" class="copyright">
+    <li>&copy; Mark Cutler <script>document.write(new Date().getFullYear())</script></li> 
+  <li><button data-dialog="attributions" class="button link">Attributions</button></li>
+  <div class="content_dialog">
+  <div id="attributions" class="dialog">
+    <div class="dialog__overlay"></div>
+    <div class="dialog__content alt">
+      <li>Template inspired by <a href="http://html5up.net">HTML5 UP</a></li>
+    <br>
+    <div>Icons made by Freepik, SimpleIcon, Icons8 from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a></div>
+        <button class="action" data-dialog-close>Close</button>
+    </div>
+  </div>
+</div>
+<!-- /content -->
+</div>
+    <!--li>Template inspired by <a href="http://html5up.net">HTML5 UP</a></li-->
   </ul>
 </footer>
 <script src="js/classie.js"></script> 
