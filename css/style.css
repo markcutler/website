@@ -138,7 +138,7 @@ pre code {
 	font-size: 0.9em;
 	line-height: 110%;
 }
-.container_pub .other{
+.container_pub .location_info{
 	font-size: 0.8em;
 }
 
@@ -752,6 +752,9 @@ input[type="button"].icon,  input[type="submit"].icon,  input[type="reset"].icon
 	opacity: 0.35;
 	float: right;
 }
+input[type="button"].icon:hover,  input[type="submit"].icon:hover,  input[type="reset"].icon:hover,  .button.icon:hover {
+	opacity: 0.85;
+}
 input[type="button"].link,  input[type="submit"].link,  input[type="reset"].link,  .button.link{
     background:none!important;
      border:none; 
@@ -773,10 +776,6 @@ input[type="button"].link,  input[type="submit"].link,  input[type="reset"].link
 }
 input[type="button"].link:hover,  input[type="submit"].link:hover,  input[type="reset"].link:hover,  .button.link:hover{
 	border-bottom-color: transparent;
-}
-}
-input[type="button"].icon:hover,  input[type="submit"].icon:hover,  input[type="reset"].icon:hover,  .button.icon:hover {
-	opacity: 0.85;
 }
 input[type="button"].special:hover,  input[type="submit"].special:hover,  input[type="reset"].special:hover,  .button.special:hover {
 	background: #96dad1 !important;

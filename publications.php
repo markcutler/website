@@ -20,6 +20,7 @@
 <script src="js/init.js"></script>
 <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
+<script src="js/modernizr.custom.js"></script>
 <script src="mixitup/js/index.js"></script>
 <noscript>
 <link rel="stylesheet" href="css/skel.css" />
@@ -98,9 +99,9 @@
       <?php include 'publications/Chen15_ICRA.php'; ?>
       <?php include 'publications/Cutler12_GNC.php'; ?>
       <?php include 'publications/Ure13_ICUAS.php'; ?>
+      <?php include 'publications/Cutler13_NIPS.php'; ?>
       <?php include 'publications/Chowdhary13_ICRA.php'; ?>
       <?php include 'publications/Michini13_ICRA.php'; ?>
-      <?php include 'publications/Cutler13_NIPS.php'; ?>
       <?php include 'publications/Cutler13_ICUAS.php'; ?>
       <?php include 'publications/Cutler12_Masters.php'; ?>
       <?php include 'publications/Chowdhary12_GNC.php'; ?>
@@ -109,9 +110,9 @@
       <?php include 'publications/Thomson09_ASM.php'; ?>
       <?php include 'publications/Barrett09_EJLA.php'; ?>
       <div class="mix journal" data-myorder="2014">
-        <h1>Analysis and Control of a Variable-Pitch Quadrotor for Agile Flight</h1>
-        <p><b>Mark Cutler</b>, Jonathan P. How<br>
-          ASME Journal of Dynamic Systems, Measurement and Control, 2014 (submitted)</p>
+        <div class="title">Analysis and Control of a Variable-Pitch Quadrotor for Agile Flight</div>
+        <div class="authors"><b>Mark Cutler</b>, Jonathan P. How</div>
+        <div class="location_info">ASME Journal of Dynamic Systems, Measurement and Control, 2014 (submitted)</div>
       </div>
     </div>
   </section>

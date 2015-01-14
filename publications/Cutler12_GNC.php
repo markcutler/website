@@ -1,16 +1,16 @@
 <div class="mix conference" data-myorder="2012"> 
-<h1>Actuator Constrained Trajectory Generation and Control for Variable-Pitch
-	Quadrotors</h1>
-<p><b>Mark Cutler</b>, Jonathan P. How<br>
-  AIAA Guidance, Navigation, and Control Conference, August 2012, Minneapolis, MN, pp. 1-15
+<div class="title">Actuator Constrained Trajectory Generation and Control for Variable-Pitch Quadrotors</div>
+<div class="authors"><b>Mark Cutler</b>, Jonathan P. How</div>
+<div class="location_info">AIAA Guidance, Navigation, and Control Conference, August 2012, Minneapolis, MN, pp. 1-15
+  <button data-dialog="Cutler12_GNC_bib" class="button icon"><span class="fa-stack fa-lg">
+<i class="fa fa-square-o fa-stack-2x"></i>
+<i class="fa fa-quote-left fa-stack-1x"></i>
+</span></button>
   <a href="http://acl.mit.edu/papers/2012-uber-compressed.pdf" target="_blank" class="button icon"><span class="fa-stack fa-lg">
 <i class="fa fa-square-o fa-stack-2x"></i>
 <i class="fa fa-cloud-download fa-stack-1x"></i>
 </span></a>
-  <button data-dialog="Cutler12_GNC_bib" class="button icon"><span class="fa-stack fa-lg">
-<i class="fa fa-square-o fa-stack-2x"></i>
-<i class="fa fa-quote-left fa-stack-1x"></i>
-</span></button></p>
+</div>
   <div class="content_dialog">
   <div id="Cutler12_GNC_bib" class="dialog">
     <div class="dialog__overlay"></div>
