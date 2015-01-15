@@ -43,6 +43,10 @@
 <script src="js/skel.min.js"></script>
 <script src="js/skel-layers.min.js"></script>
 <script src="js/init.js"></script>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
+<script src="js/modernizr.custom.js"></script>
+<script src="js/index.js"></script>
 <noscript>
 <link rel="stylesheet" href="css/skel.css" />
 <link rel="stylesheet" href="css/style.css" />
@@ -409,14 +413,26 @@
 </section>
 
 <!-- Footer -->
-
 <footer id="footer">
-  <ul class="copyright">
-    <li>&copy; Mark Cutler <script>document.write(new Date().getFullYear())</script></li>
-    <li>Template inspired by <a href="http://html5up.net">HTML5 UP</a></li>
-    <br>
-    <div>Icons made by Freepik, SimpleIcon, Icons8 from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a></div>
+  <ul id="Publications" class="copyright">
+    <li>&copy; Mark Cutler <script>document.write(new Date().getFullYear())</script></li> 
+  <li><button data-dialog="attributions" class="button link">Attributions</button></li>
+    <!--li>Template inspired by <a href="http://html5up.net">HTML5 UP</a></li-->
   </ul>
 </footer>
+<?php include 'dialog_content.php'; ?>
+<script src="js/classie.js"></script> 
+<script src="js/dialogFx.js"></script> 
+<script>
+            (function() {
+ 
+    [].slice.call( document.querySelectorAll( '[data-dialog]' ) ).forEach( function( trigger ) {
+        var dlg = new DialogFx( document.getElementById( trigger.getAttribute( 'data-dialog' ) ) );
+ 
+        trigger.addEventListener( 'click', dlg.toggle.bind(dlg) );
+    } );
+ 
+})();
+		</script>
 </body>
 </html>
