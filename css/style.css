@@ -142,10 +142,10 @@ pre code {
 	font-size: 0.8em;
 }
 
-.container_pub .mix, .container_pub .gap {
+.container_pub .mix{
 	display: none;
 	width: 100%;
-    background: #B4E4DE;
+    background: #E1E8F2;
     margin-bottom: 1.2%;
 	padding: 0.5% 1.5%;
 }
@@ -157,13 +157,13 @@ pre code {
 	padding: 0% 2.5%;
 }*/
 .container_pub .mix.conference {
-	border-top: 5px solid #22B9F8;
+	border-top: 5px solid #A0E0FB;
 }
 .container_pub .mix.journal {
-	border-top: 5px solid yellow;
+	border-top: 5px solid #FFFE80;
 }
 .container_pub .mix.other {
-	border-top: 5px solid red;
+	border-top: 5px solid #FFAFAF;
 }
 /*.container_pub .mix {
 	border-bottom: 10px solid white;
