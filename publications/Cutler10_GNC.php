@@ -11,26 +11,4 @@
 <i class="fa fa-cloud-download fa-stack-1x"></i>
 </span></a>
 </div>
-  <div class="content_dialog">
-  <div id="Cutler10_GNC_bib" class="dialog">
-    <div class="dialog__overlay"></div>
-    <div class="dialog__content">
-      <pre>
-@INPROCEEDINGS{Cutler10_GNC,
-  title = {Energy Harvesting and Mission Effectiveness for Small Unmanned Aircraft},
-  author = {Cutler, Mark and McLain, Timothy W and Beard, Randal W and Capozzi, Brian},
-  booktitle = {AIAA Guidance, Navigation, and Control Conference (GNC)},
-  pages = {1--13},
-  address = {Toronto, Canada},
-  month = {August},
-  year = {2010},
-  url = {http://acl.mit.edu/papers/Cutler10_GNC.pdf}
-}</pre>
-      <div>
-        <button class="action" data-dialog-close>Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- /content -->
 </div>

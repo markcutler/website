@@ -11,26 +11,4 @@
 <i class="fa fa-cloud-download fa-stack-1x"></i>
 </span></a>
 </div>
-  <div class="content_dialog">
-  <div id="Cutler12_GNC_bib" class="dialog">
-    <div class="dialog__overlay"></div>
-    <div class="dialog__content">
-      <pre>
-@INPROCEEDINGS{Cutler12_GNC,
-  author = {Cutler, Mark and How, Jonathan P.},
-  title = {Actuator Constrained Trajectory Generation and Control for Variable-Pitch Quadrotors},
-  booktitle = {AIAA Guidance, Navigation, and Control Conference (GNC)},
-  year = {2012},
-  address = {Minneapolis, Minnesota},
-  month = {August},
-  pages = {1--15},
-  url = {http://acl.mit.edu/papers/2012-uber-compressed.pdf}
-}</pre>
-      <div>
-        <button class="action" data-dialog-close>Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- /content -->
 </div>

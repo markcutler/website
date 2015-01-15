@@ -11,26 +11,4 @@
 <i class="fa fa-cloud-download fa-stack-1x"></i>
 </span></a>
 </div>
-  <div class="content_dialog">
-  <div id="Cutler13_ICUAS_bib" class="dialog">
-    <div class="dialog__overlay"></div>
-    <div class="dialog__content">
-      <pre>
-@INPROCEEDINGS{Cutler13_ICUAS,
-  author = {Cutler, Mark and Michini, Bernard and How, Jonathan P.},
-  title = {Lightweight Infrared Sensing for Relative Navigation of Quadrotors},
-  booktitle = {International Conference on Unmanned Aircraft Systems (ICUAS)},
-  year = {2013},
-  pages = {1156--1164},
-  address = {Atlanta GA},
-  month = {May},
-  url = {http://acl.mit.edu/papers/Cutler13_ICUAS.pdf}
-}</pre>
-      <div>
-        <button class="action" data-dialog-close>Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- /content -->
 </div>

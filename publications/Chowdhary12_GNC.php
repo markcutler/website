@@ -11,28 +11,4 @@
 <i class="fa fa-cloud-download fa-stack-1x"></i>
 </span></a>
 </div>
-  <div class="content_dialog">
-  <div id="Chowdhary12_GNC2_bib" class="dialog">
-    <div class="dialog__overlay"></div>
-    <div class="dialog__content">
-      <pre>
-@INPROCEEDINGS{Chowdhary12_GNC2,
-  author = {Chowdhary, Girish and Wu, Tongbin and Cutler, Mark and Ure, N. Kemal and How, Jonathan},
-  title = {Experimental Results of Concurrent Learning Adaptive Controller},
-  booktitle = {AIAA Guidance, Navigation, and Control Conference (GNC)},
-  year = {2012},
-  address = {Minneapolis, MN},
-  month = {August},
-  organization = {AIAA},
-  pages = {1--14},
-  note = {Invited},
-  url = {http://acl.mit.edu/papers/chow_GNC12_conc_applications.pdf}
-}</pre>
-      <div>
-        <button class="action" data-dialog-close>Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- /content -->
 </div>

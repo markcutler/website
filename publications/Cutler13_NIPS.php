@@ -11,23 +11,4 @@
 <i class="fa fa-cloud-download fa-stack-1x"></i>
 </span></a-->
 </div>
-  <div class="content_dialog">
-  <div id="Cutler13_NIPS_bib" class="dialog">
-    <div class="dialog__overlay"></div>
-    <div class="dialog__content">
-      <pre>
-@INPROCEEDINGS{Cutler13_NIPS,
-  author = {Cutler, Mark and Walsh, Thomas J. and How, Jonathan P.},
-  title = {Reinforcement Learning with Multi-Fidelity Simulators (Poster)},
-  booktitle = {NIPS Transfer and Multi-Task Learning Workshop},
-  month = {December},
-  year = {2013}
-}</pre>
-      <div>
-        <button class="action" data-dialog-close>Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- /content -->
 </div>

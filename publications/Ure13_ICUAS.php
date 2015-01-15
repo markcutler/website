@@ -11,25 +11,4 @@
 <i class="fa fa-cloud-download fa-stack-1x"></i>
 </span></a-->
 </div>
-  <div class="content_dialog">
-  <div id="Ure13_ICUAS_bib" class="dialog">
-    <div class="dialog__overlay"></div>
-    <div class="dialog__content">
-      <pre>
-@INPROCEEDINGS{Ure13_ICUAS,
-  author = {Ure, N. Kemal and Chowdhary, Girish and Chen, Yu Fan and Cutler, Mark and How, Jonathan P. and Vian, John},
-  title = {Decentralized Learning based Planning Multiagent Missions in Presence of Actuator Failures},
-  booktitle = {International Conference on Unmanned Aircraft Systems (ICUAS)},
-  year = {2013},
-  address = {Atlanta GA},
-  month = {May},
-  pages={1125--1134},
-}</pre>
-      <div>
-        <button class="action" data-dialog-close>Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- /content -->
 </div>

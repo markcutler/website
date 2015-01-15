@@ -20,8 +20,8 @@
 <script src="js/init.js"></script>
 <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
-<script src="js/index.js"></script>
 <script src="js/modernizr.custom.js"></script>
+<script src="mixitup/js/index.js"></script>
 <noscript>
 <link rel="stylesheet" href="css/skel.css" />
 <link rel="stylesheet" href="css/style.css" />
@@ -139,6 +139,7 @@ the 'restraining' element.
       <?php include 'publications/Cutler14_ICRA.php'; ?>
       <?php include 'publications/Cutler15_ICRA.php'; ?>
       <?php include 'publications/Cutler14_TRO.php'; ?>
+      <?php include 'publications/bibtex.php'; ?>
     </div>
   </section>
   
@@ -160,9 +161,22 @@ the 'restraining' element.
 
 <!-- Footer -->
 <footer id="footer">
-  <ul class="copyright">
-    <li>&copy; Mark Cutler <script>document.write(new Date().getFullYear())</script></li>
-    <li>Template inspired by <a href="http://html5up.net">HTML5 UP</a></li>
+  <ul id="Publications" class="copyright">
+    <li>&copy; Mark Cutler <script>document.write(new Date().getFullYear())</script></li> 
+  <li><button data-dialog="attributions" class="button link">Attributions</button></li>
+  <div class="content_dialog">
+  <div id="attributions" class="dialog">
+    <div class="dialog__overlay"></div>
+    <div class="dialog__content alt">
+      <li>Template inspired by <a href="http://html5up.net">HTML5 UP</a></li>
+    <br>
+    <div>Icons made by Freepik, SimpleIcon, Icons8 from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a></div>
+        <button class="action" data-dialog-close>Close</button>
+    </div>
+  </div>
+</div>
+<!-- /content -->
+    <!--li>Template inspired by <a href="http://html5up.net">HTML5 UP</a></li-->
   </ul>
 </footer>
 <script src="js/classie.js"></script> 

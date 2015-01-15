@@ -11,23 +11,4 @@
 <i class="fa fa-cloud-download fa-stack-1x"></i>
 </span></a-->
 </div>
-  <div class="content_dialog">
-  <div id="Cutler14_TRO_bib" class="dialog">
-    <div class="dialog__overlay"></div>
-    <div class="dialog__content">
-      <pre>
-@article{Cutler14_TRO,
-	Author = {Mark Cutler and Thomas J. Walsh and Jonathan P. How},
-	Journal = {IEEE Transactions on Robotics},
-	Title = {Real-World Reinforcement Learning via Multi-Fidelity Simulators},
-    Year = {2014 (submitted)},
-    Organization = {IEEE}
-	}</pre>
-      <div>
-        <button class="action" data-dialog-close>Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- /content -->
 </div>

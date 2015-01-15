@@ -114,6 +114,7 @@
         <div class="authors"><b>Mark Cutler</b>, Jonathan P. How</div>
         <div class="location_info">ASME Journal of Dynamic Systems, Measurement and Control, 2014 (submitted)</div>
       </div>
+      <?php include 'publications/bibtex.php'; ?>
     </div>
   </section>
   
@@ -150,7 +151,6 @@
   </div>
 </div>
 <!-- /content -->
-</div>
     <!--li>Template inspired by <a href="http://html5up.net">HTML5 UP</a></li-->
   </ul>
 </footer>

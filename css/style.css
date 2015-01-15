@@ -39,7 +39,7 @@ body, input, select, textarea {
 .controls {
 	padding: 2%;
 	background: #ffffff;
-	color: #313131;
+	color: inherit;
 }
 label {
 	font-weight: 300;
@@ -48,16 +48,16 @@ label {
 button {
 	display: inline-block;
 	padding: .4em .8em;
-	background: #666;
+	background: #E1E8F2;
 	border: 0;
-	color: #ddd;
+	color: inherit;
 	font-size: 1em;
 	font-weight: 300;
 	border-radius: 4px;
 	cursor: pointer;
 }
 button.active {
-	background: #83d3c9;
+	background: #A0E0FB;
 }
 button:focus {
 	outline: 0 none;

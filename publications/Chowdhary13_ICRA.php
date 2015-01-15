@@ -11,27 +11,4 @@
 <i class="fa fa-cloud-download fa-stack-1x"></i>
 </span></a>
 </div>
-  <div class="content_dialog">
-  <div id="Chowdhary13_ICRA_bib" class="dialog">
-    <div class="dialog__overlay"></div>
-    <div class="dialog__content">
-      <pre>
-@INPROCEEDINGS{Chowdhary13_ICRA,
-  author = {Chowdhary, Girish and Wu, Tongbin and Cutler, Mark and How, Jonathan P.},
-  title = {Rapid Transfer of Controllers Between {UAVs} using Learning Based Adaptive Control},
-  booktitle = {IEEE International Conference on Robotics and Automation (ICRA)},
-  year = {2013},
-  pages={5409--5416},
-  month={May},
-  address={Karlsruhe, Germany},
-  organization = {IEEE},
-  url = {http://acl.mit.edu/papers/Chowdhary13_ICRA.pdf}
-}</pre>
-      <div>
-        <button class="action" data-dialog-close>Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- /content -->
 </div>

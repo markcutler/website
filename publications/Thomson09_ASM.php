@@ -11,24 +11,4 @@
 <i class="fa fa-cloud-download fa-stack-1x"></i>
 </span></a-->
 </div>
-  <div class="content_dialog">
-  <div id="Thomson09_ASM_bib" class="dialog">
-    <div class="dialog__overlay"></div>
-    <div class="dialog__content">
-      <pre>
-@INPROCEEDINGS{Thomson09_ASM,
-  title = {Experiment-Based Optimization of Flapping Wing Kinematics},
-  author = {Thomson, Scott L. and Mattson, Christopher A. and Colton, Mark B. and Harston, Stephen P. and Carlson, Daniel C. and Cutler, Mark},
-  year = {2009},
-  month = {January},
-  booktitle = {AIAA Proceedings of the 47th Aerospace Sciences Meeting},
-  pages = {1--8}
-}</pre>
-      <div>
-        <button class="action" data-dialog-close>Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- /content -->
 </div>

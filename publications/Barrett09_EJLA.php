@@ -11,24 +11,4 @@
 <i class="fa fa-cloud-download fa-stack-1x"></i>
 </span></a-->
 </div>
-  <div class="content_dialog">
-  <div id="Barrett09_EJLA_bib" class="dialog">
-    <div class="dialog__overlay"></div>
-    <div class="dialog__content">
-      <pre>
-@article{Barrett09_EJLA,
-  title = {Minimum rank of edge subdivisions of graphs},
-  author = {Barrett, Wayne and Bowcutt, Ryan and Cutler, Mark and Gibelyou, Seth and Owens, Kayla},
-  journal = {Electronic Journal of Linear Algebra},
-  volume = {18},
-  pages = {530--563},
-  year = {2009}
-}</pre>
-      <div>
-        <button class="action" data-dialog-close>Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- /content -->
 </div>
