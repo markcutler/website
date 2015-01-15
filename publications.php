@@ -114,7 +114,6 @@
         <div class="authors"><b>Mark Cutler</b>, Jonathan P. How</div>
         <div class="location_info">ASME Journal of Dynamic Systems, Measurement and Control, 2014 (submitted)</div>
       </div>
-      <?php include 'publications/bibtex.php'; ?>
     </div>
   </section>
   
@@ -139,21 +138,10 @@
   <ul id="Publications" class="copyright">
     <li>&copy; Mark Cutler <script>document.write(new Date().getFullYear())</script></li> 
   <li><button data-dialog="attributions" class="button link">Attributions</button></li>
-  <div class="content_dialog">
-  <div id="attributions" class="dialog">
-    <div class="dialog__overlay"></div>
-    <div class="dialog__content alt">
-      <li>Template inspired by <a href="http://html5up.net">HTML5 UP</a></li>
-    <br>
-    <div>Icons made by Freepik, SimpleIcon, Icons8 from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a></div>
-        <button class="action" data-dialog-close>Close</button>
-    </div>
-  </div>
-</div>
-<!-- /content -->
     <!--li>Template inspired by <a href="http://html5up.net">HTML5 UP</a></li-->
   </ul>
 </footer>
+<?php include 'dialog_content.php'; ?>
 <script src="js/classie.js"></script> 
 <script src="js/dialogFx.js"></script> 
 <script>
