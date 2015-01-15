@@ -135,7 +135,7 @@ the 'restraining' element.
 <header class="container">
   <h2><strong>Related Publications</strong></h2>
 </header>
-    <div id="Publications" class="container_pub alt">
+    <div id="Publications" class="container_pub">
       <?php include 'publications/Cutler14_ICRA.php'; ?>
       <?php include 'publications/Cutler15_ICRA.php'; ?>
       <?php include 'publications/Cutler14_TRO.php'; ?>
