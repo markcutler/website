@@ -33,7 +33,7 @@
 }
 
 .dialog__content {
-	width: 60%;
+	width: 75%;
 	max-width: 1000px;
 	min-width: 290px;
 	background: #fff;
@@ -49,6 +49,9 @@
 	line-height: 140%;	
 }
 
+.close_button{
+	text-align: center;
+}
 
 .dialog--open .dialog__content {
 	pointer-events: auto;

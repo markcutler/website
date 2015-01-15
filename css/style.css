@@ -123,8 +123,8 @@ pre code {
 	-webkit-backface-visibility: hidden;
 	line-height: 100%;
 }
-.container_pub .alt {
-	backgroud: #F06D6F;
+.container_pub.alt {
+	color: inherit;
 }
 .container_pub .title{
     font-size: 1.15em;
@@ -132,7 +132,7 @@ pre code {
 	font-weight: 400;
 }
 .container_pub b{
-	font-weight:600;
+	font-weight:bolder;
 }
 .container_pub .authors{
 	font-size: 0.9em;
@@ -149,13 +149,10 @@ pre code {
     margin-bottom: 1.2%;
 	padding: 0.5% 1.5%;
 }
-/*.container_pub .mix {
-	text-align: left;
-	margin-bottom: 2%;
-	display: none;
-	vertical-align: top;
-	padding: 0% 2.5%;
-}*/
+.container_pub.alt .mix {
+	background: #CAECE8;
+	color: #7c8081;
+}
 .container_pub .mix.conference {
 	border-top: 5px solid #A0E0FB;
 }

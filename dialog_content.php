@@ -16,7 +16,9 @@
   url = {http://acl.mit.edu/papers/Michini11_ICRA.pdf}
 }</pre>
       <div>
-        <button class="action" data-dialog-close>Close</button>
+      <div class="close_button">
+      <button class="action" data-dialog-close>Close</button>
+      </div>
       </div>
     </div>
   </div>
@@ -33,7 +35,9 @@
   year = {2009}
 }</pre>
       <div>
-        <button class="action" data-dialog-close>Close</button>
+      <div class="close_button">
+      <button class="action" data-dialog-close>Close</button>
+      </div>
       </div>
     </div>
   </div>
@@ -52,7 +56,9 @@
 }
 </pre>
       <div>
-        <button class="action" data-dialog-close>Close</button>
+      <div class="close_button">
+      <button class="action" data-dialog-close>Close</button>
+      </div>
       </div>
     </div>
   </div>
@@ -73,7 +79,9 @@
   url = {http://acl.mit.edu/papers/chow_GNC12_conc_applications.pdf}
 }</pre>
       <div>
-        <button class="action" data-dialog-close>Close</button>
+      <div class="close_button">
+      <button class="action" data-dialog-close>Close</button>
+      </div>
       </div>
     </div>
   </div>
@@ -93,7 +101,9 @@
   url = {http://acl.mit.edu/papers/Chowdhary13_ICRA.pdf}
 }</pre>
       <div>
-        <button class="action" data-dialog-close>Close</button>
+      <div class="close_button">
+      <button class="action" data-dialog-close>Close</button>
+      </div>
       </div>
     </div>
   </div>
@@ -112,7 +122,9 @@
   url = {http://acl.mit.edu/papers/Cutler10_GNC.pdf}
 }</pre>
       <div>
-        <button class="action" data-dialog-close>Close</button>
+      <div class="close_button">
+      <button class="action" data-dialog-close>Close</button>
+      </div>
       </div>
     </div>
   </div>
@@ -131,7 +143,9 @@
   url = {http://acl.mit.edu/papers/GNC11_Cutler_uber.pdf}
 }</pre>
       <div>
-        <button class="action" data-dialog-close>Close</button>
+      <div class="close_button">
+      <button class="action" data-dialog-close>Close</button>
+      </div>
       </div>
     </div>
   </div>
@@ -150,7 +164,9 @@
   url = {http://acl.mit.edu/papers/2012-uber-compressed.pdf}
 }</pre>
       <div>
-        <button class="action" data-dialog-close>Close</button>
+      <div class="close_button">
+      <button class="action" data-dialog-close>Close</button>
+      </div>
       </div>
     </div>
   </div>
@@ -167,7 +183,9 @@
   url = {http://acl.mit.edu/papers/Cutler_Masters12.pdf}
 }</pre>
       <div>
-        <button class="action" data-dialog-close>Close</button>
+      <div class="close_button">
+      <button class="action" data-dialog-close>Close</button>
+      </div>
       </div>
     </div>
   </div>
@@ -186,7 +204,9 @@
   url = {http://acl.mit.edu/papers/Cutler13_ICUAS.pdf}
 }</pre>
       <div>
-        <button class="action" data-dialog-close>Close</button>
+      <div class="close_button">
+      <button class="action" data-dialog-close>Close</button>
+      </div>
       </div>
     </div>
   </div>
@@ -202,7 +222,9 @@
   year = {2013}
 }</pre>
       <div>
-        <button class="action" data-dialog-close>Close</button>
+      <div class="close_button">
+      <button class="action" data-dialog-close>Close</button>
+      </div>
       </div>
     </div>
   </div>
@@ -222,7 +244,9 @@
 }
 </pre>
       <div>
-        <button class="action" data-dialog-close>Close</button>
+      <div class="close_button">
+      <button class="action" data-dialog-close>Close</button>
+      </div>
       </div>
     </div>
   </div>
@@ -238,7 +262,9 @@
     Organization = {IEEE}
 	}</pre>
       <div>
-        <button class="action" data-dialog-close>Close</button>
+      <div class="close_button">
+      <button class="action" data-dialog-close>Close</button>
+      </div>
       </div>
     </div>
   </div>
@@ -257,7 +283,9 @@
 }
 </pre>
       <div>
-        <button class="action" data-dialog-close>Close</button>
+      <div class="close_button">
+      <button class="action" data-dialog-close>Close</button>
+      </div>
       </div>
     </div>
   </div>
@@ -276,7 +304,9 @@
   url = {http://acl.mit.edu/papers/michini-icra-2013.pdf}
 }</pre>
       <div>
-        <button class="action" data-dialog-close>Close</button>
+      <div class="close_button">
+      <button class="action" data-dialog-close>Close</button>
+      </div>
       </div>
     </div>
   </div>
@@ -293,7 +323,9 @@
   pages = {1--8}
 }</pre>
       <div>
-        <button class="action" data-dialog-close>Close</button>
+      <div class="close_button">
+      <button class="action" data-dialog-close>Close</button>
+      </div>
       </div>
     </div>
   </div>
@@ -311,7 +343,9 @@
   pages={1125--1134},
 }</pre>
       <div>
-        <button class="action" data-dialog-close>Close</button>
+      <div class="close_button">
+      <button class="action" data-dialog-close>Close</button>
+      </div>
       </div>
     </div>
   </div>
@@ -324,7 +358,9 @@
       <li>Sorting by <a href="https://mixitup.kunkalabs.com/">MixItUp</a></li>
       <li>Dialog effects by <a href="https://github.com/codrops/DialogEffects">codrops</a></li>
       <br>
+      <div class="close_button">
       <button class="action" data-dialog-close>Close</button>
+      </div>
     </div>
   </div>
   </div>
