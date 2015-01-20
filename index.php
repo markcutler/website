@@ -59,35 +59,16 @@
 <!-- Header -->
 <header id="header" class="alt">
 <h1 id="logo">
-<a href="index.html" class="scrolly">Mark Cutler</a>
+<a href="index.php" class="scrolly">Mark Cutler</a>
 </h>
 <nav id="nav">
   <ul>
     <li class="current"><a href="#main" class="scrolly">About</a></li>
     <li class="current"><a href="#experience" class="scrolly">Experience</a></li>
     <li class="current"><a href="#projects" class="scrolly">Projects</a></li>
-    <li class="current"><a href="#publications" class="scrolly">Publications</a></li>
+    <li class="current"><a href="#pubs" class="scrolly">Publications</a></li>
     <li class="current"><a href="#interests" class="scrolly">Interests</a></li>
     <li class="current"><a href="#footer" class="scrolly">Contact</a></li>
-    <!--li class="submenu">
-							<a href="">Layouts</a>
-							<ul>
-								<li><a href="left-sidebar.html">Left Sidebar</a></li>
-								<li><a href="right-sidebar.html">Right Sidebar</a></li>
-								<li><a href="no-sidebar.html">No Sidebar</a></li>
-								<li><a href="contact.html">Contact</a></li>
-								<li class="submenu">
-									<a href="">Submenu</a>
-									<ul>
-										<li><a href="#">Dolore Sed</a></li>
-										<li><a href="#">Consequat</a></li>
-										<li><a href="#">Lorem Magna</a></li>
-										<li><a href="#">Sed Magna</a></li>
-										<li><a href="#">Ipsum Nisl</a></li>
-									</ul>
-								</li>
-							</ul>
-						</li-->
   </ul>
 </nav>
 </header>
@@ -275,8 +256,9 @@
           <header>
             <h3>Variable-Pitch Quadrotor</h3>
           </header>
-          <p>This project aims to develop a varible-pitch quadrotor capable of aggressive aerobatic manuvers which stretch beyond the current abilities of typical fixed-pitch quadrotors.</p>
-          <p>Fixed-pitch quadrotors are limited in their ability to make abrupt changes in thrust or to create negative thrust. The control bandwidth of a typical fixed-pitch quadrotor is restricted by the rotational inertia of the motor and propellers; however, with a variable-pitch design, the control bandwidth is increased. The variable-pitch actuators allow the propellers to change from a full positive pitch to a full negative pitch in rougly 0.07 seconds while the motor remains at maximum RPM, allowing the quadrotor to change from maximum positive thrust to maximum negative thrust extremely fast.</p>
+          <p>TODO</p>
+          <!--p>This project aims to develop a varible-pitch quadrotor capable of aggressive aerobatic manuvers which stretch beyond the current abilities of typical fixed-pitch quadrotors.</p>
+          <p>Fixed-pitch quadrotors are limited in their ability to make abrupt changes in thrust or to create negative thrust. The control bandwidth of a typical fixed-pitch quadrotor is restricted by the rotational inertia of the motor and propellers; however, with a variable-pitch design, the control bandwidth is increased. The variable-pitch actuators allow the propellers to change from a full positive pitch to a full negative pitch in rougly 0.07 seconds while the motor remains at maximum RPM, allowing the quadrotor to change from maximum positive thrust to maximum negative thrust extremely fast.</p-->
         </section>
       </div>
       <div class="6u 12u(2)">
@@ -315,8 +297,33 @@
     
   </section>
   
+    <!-- One -->
+  <section id="pubs" class="wrapper style3 container special">
+    <header>
+      <h2><strong>Selected Publications</strong></h2>
+    </header>
+    <div id="Publications" class="container_pub">
+      <?php include 'publications/Cutler14_ICRA.php'; ?>
+      <?php include 'publications/Cutler12_GNC.php'; ?>
+      <?php include 'publications/Cutler13_ICUAS.php'; ?>
+      <?php include 'publications/Cutler11_GNC.php'; ?>
+    </div>
+    <br>
+    <div class="row">
+      <div class="12u">
+        <section>
+          <footer>
+            <ul class="buttons">
+              <li><a href="publications.php" class="button small">All Publications</a></li>
+            </ul>
+          </footer>
+        </section>
+      </div>
+    </div>
+  </section>
+  
   <!-- Two -->
-  <section id=interests class="wrapper style1 container special">
+  <section id="interests" class="wrapper style1 container special">
     <header class="major">
       <h2><strong>Interests</strong></h2>
     </header>
@@ -388,37 +395,7 @@
   </section>
 </article>
 
-<!-- CTA -->
-<section id="cta">
-  <header>
-    <h2><strong>Get in Touch</strong></h2>
-  </header>
-  <footer>
-    <ul class="icons">
-      
-      <!--li><a href="mailto:markjcutler@gmail.com" class="icon fa-envelope-square fa-4x"><span class="label">Email</span></a></li--> 
-      <!-- javascript trick to "hide" my email from spambots -->
-      <li><script language="JavaScript">
-						var username = "markjcutler";
-						var hostname = "gmail.com";
-						var linktext = username + "@" + hostname ;
-						document.write("<a href='" + "mail" + "to:" + username + "@" + hostname + "'");
-						</script> class="icon fa-envelope-square fa-4x"><span class="label">Email</span></a></li>
-      <li><a href="https://www.linkedin.com/pub/mark-cutler/23/939/7a8" class="icon fa-linkedin-square fa-4x"><span class="label">LinkedIn</span></a></li>
-      <li><a href="https://github.com/cutlerm/" class="icon fa-github-square fa-4x"><span class="label">Github</span></a></li>
-      <li><a href="https://www.flickr.com/photos/55516219@N04/" class="icon fa-flickr fa-4x"><span class="label">Flickr</span></a></li>
-    </ul>
-  </footer>
-</section>
-
-<!-- Footer -->
-<footer id="footer">
-  <ul id="Publications" class="copyright">
-    <li>&copy; Mark Cutler <script>document.write(new Date().getFullYear())</script></li> 
-  <li><button data-dialog="attributions" class="button link">Attributions</button></li>
-    <!--li>Template inspired by <a href="http://html5up.net">HTML5 UP</a></li-->
-  </ul>
-</footer>
+<?php include 'footer.php'; ?>
 <?php include 'dialog_content.php'; ?>
 <script src="js/classie.js"></script> 
 <script src="js/dialogFx.js"></script> 
