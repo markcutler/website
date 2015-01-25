@@ -89,7 +89,7 @@
         <section>
           <footer>
             <ul class="buttons">
-              <li><a href="index.html#publications" class="button small">Back</a></li>
+              <li><a href="index.php#pubs" class="button small">Back</a></li>
             </ul>
           </footer>
         </section>

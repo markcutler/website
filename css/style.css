@@ -808,6 +808,9 @@ input[type="button"].small,  input[type="submit"].small,  input[type="reset"].sm
 	background-size: 25em, 25em;*/
 	color: white;
 }
+.wrapper.style2 a {
+	color: white;
+}
 .wrapper.style2 .button:hover {
 	background: rgba(255, 255, 255, 0.15) !important;
 }

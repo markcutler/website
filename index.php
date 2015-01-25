@@ -96,31 +96,37 @@
 
 <!-- Main -->
 <article id="main">
-  <header class="special container"> <span class="icon fa-camera"></span>
+  <header class="special container"> 
+  <span class="icon fa-camera"></span>
     <h2><strong>About</strong></h2>
-  </header>
-  <section class="wrapper style1 container ">
-    <div class="row half">
-      <div class="-3u 3u">
-        <section> <img src="images/markcutler.jpg" width="192" height="262" alt=""/> </section>
+  
+        	<img src="images/mark-01.png" width="268" height="308" alt=""/> 
+            <div class="row half">
+            <div class="-2u 8u">
+            <p>I am a 28-year old robotist, husband, and father.  I grew up building and flying model airplanes and dreaming about robots. I am passionate about the future of every-day robotics and automation, particuarly flying robots.</p>
+            </div>
+            </div>
+    <!--div class="row half">
+      <div class="-2u 4u" align="center">
+        <section> <img src="images/mark-01.png" width="268" height="308" alt=""/> </section>
       </div>
-      <div class="3u">
+      <div class="-1u 5u">
         <section>
           <header>
-            <h3>I am a</h3>
+            <h2>I am a</h2>
           </header>
           <p>
-          <ul class="fa-ul">
-            <li><i class="fa-li fa fa-square"></i>Roboticist</li>
-            <li><i class="fa-li fa fa-square"></i>Husband</li>
-            <li><i class="fa-li fa fa-square"></i>Father</li>
-            <li><i class="fa-li fa fa-square"></i>and still in school...</li>
-          </ul>
+          <li class="fa-ul">
+            <li>Roboticist</li>
+            <li>Husband</li>
+            <li>Father</li>
+            <li>And still in school...</li>
+          </li>
           </p>
         </section>
       </div>
-    </div>
-  </section>
+    </div-->
+  </header>
   
   <!-- One -->
   <section id="experience" class="wrapper style2 container special-alt">
@@ -135,7 +141,7 @@
         Sept 2012 - Jun 2015 </div>
       <div class="-2u 6u">
         <p><strong>Ph.D. -- Robotics and Autonomous Systems</strong> <br>
-          My research focuses on decision making under uncertainty for autonomous systems.  In particular, I am interested in robotic agents that learn through environment interaction.  The learning efficiency is increased by using available simulations of the robot and the environment.</p>
+          <a href="mfrl.php"> My research</a> focuses on decision making under uncertainty for autonomous systems.  In particular, I am interested in robotic agents that learn through environment interaction.  The learning efficiency is increased by using available simulations of the robot and the environment.</p>
       </div>
     </div>
     <div class="row half">
@@ -147,7 +153,7 @@
       </div>
       <div class="-2u 6u">
         <p><strong>M.S. -- Aerospace Engineering</strong><br>
-          TODO</p>
+          I designed, built, and flew a <a href="var-pitch.html">novel quadrotor</a> with variable-pitch propellers. &nbsp;The variable-pitch actuators enable aggressive and aerobatic flight previously impossible with multi-rotor helicopters. &nbsp;I also developed new flight control algorithms and <a href="autopilots.php">autopilot hardware</a> to control the vehicle.</p>
       </div>
     </div>
     <div class="row half">
@@ -159,7 +165,7 @@
       </div>
       <div class="-2u 6u">
         <p><strong>Bachelor -- Mechanical Engineering</strong><br>
-          TODO</p>
+          As an udergraduate at BYU I worked on several projects, including <a href="http://acl.mit.edu/papers/Cutler10_GNC.pdf" target="_blank">energy harvesting for autonomous sailplanes</a>, <a href="http://acl.mit.edu/papers/Thomson09_ASM.pdf" target="_blank">flapping flight optimization</a>, and <a href="http://acl.mit.edu/papers/Barret09_EJLA.pdf" target="_blank">theoretical linear algebra</a> (just enough to realize I like robots more than math theory).</p>
       </div>
     </div>
     <header class="container">
@@ -174,20 +180,9 @@
       </div>
       <div class="-2u 6u">
         <p><strong>Mechanical Design Engineer</strong><br>
-          TODO</p>
+          As the sole mechanical engineer, I developed new heat management techniques for small radar devices resulting in a significant high-temperature performance increase. &nbsp;I also designed a new carbon-fiber, light-weight case for the radar encasement.</p>
       </div>
     </div>
-    <div class="row half">
-      <div class="4u">
-        <header>
-          <h1>BYU MAGICC Lab</h1>
-        </header>
-        <p>Feb 2008 - Apr 2010</p>
-      </div>
-      <div class="-2u 6u">
-        <p><strong>Research Assistant</strong><br>
-          TODO</p>
-      </div>
     </div>
     <div class="row half">
       <div class="4u">
@@ -198,7 +193,7 @@
       </div>
       <div class="-2u 6u">
         <p><strong>Mechanical Design Engineer</strong><br>
-          TODO</p>
+          I designed a demo platform for integration of a new modem into a mobile communication ground station. &nbsp;I also performed thermal, structural, weight, and power analyses to optimize data link and modem case designs.</p>
       </div>
     </div>
     <div class="row half">
@@ -210,7 +205,7 @@
       </div>
       <div class="-2u 6u">
         <p><strong>Advanced Machine Systems Engineer</strong><br>
-          TODO</p>
+          I researched and tested a method that reduced tool run-out by 55% in countouring mills that manufacture &nbsp;diesel particulate filters. &nbsp;I also designed a novel mechanism enabling the cutting of wet ceramic extrusions to be performed by one person instead of two.</p>
       </div>
     </div>
   </section>
@@ -276,7 +271,7 @@
           <header>
             <h3>Relative Navigation</h3>
           </header>
-          <p>An autonomous quadrotor that navigates relative to a set on known beacons.</p>
+          <p>An autonomous quadrotor that navigates relative to a set of known beacons.</p>
         </section>
       </div>
       <div class="6u 12u(2)">
@@ -328,6 +323,34 @@
       <h2><strong>Interests</strong></h2>
     </header>
     <div class="row">
+      
+      <div class="4u">
+        <section> <span class="icon fi featured flaticon-sleeping4"></span> 
+          <!-- img src="fonts/svg/robot32.svg" alt="Robot" -->
+          <header>
+            <h3>My Kids</h3>
+          </header>
+          <p>Hailey (4), Rachel (2), and Aaron (0).  Still trying to figure out how to tap into their energy supplies to try and heat our home.</p>
+        </section>
+      </div>
+            <div class="4u">
+        <section> <span class="icon fi featured flaticon-robotic"></span>
+          <header>
+            <h3>Robots</h3>
+          </header>
+          <p>Is there anyone who isn't interested in robots?</p>
+        </section>
+      </div>
+      <div class="4u">
+        <section> <span class="icon fi featured flaticon-cpu5"></span>
+          <header>
+            <h3>Electronics</h3>
+          </header>
+          <p>Been trying to automate my life one microcontroller at a time (long before people were talking about the <a href="http://en.wikipedia.org/wiki/Internet_of_Things" target="_blank">"IoT"</a>).</p>
+        </section>
+      </div>
+    </div>
+    <div class="row">
       <div class="4u">
         <section> 
           <!--span class="fa-stack fa-lg">
@@ -338,9 +361,9 @@
           <!--span class="icon featured fa-plane"></span--> 
           <span class="icon fi featured flaticon-tennis"></span>
           <header>
-            <h3>Tennis</h3>
+            <h3>Racquet Sports</h3>
           </header>
-          <p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.</p>
+          <p>Tennis, racquet ball, squash, ping-pong, badminton... If there is a racquet involved, count me in. </p>
         </section>
       </div>
       <div class="4u">
@@ -353,42 +376,15 @@
           <header>
             <h3>Skiing</h3>
           </header>
-          <p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.</p>
-        </section>
-      </div>
-      <div class="4u">
-        <section> <span class="icon fi featured flaticon-sleeping4"></span> 
-          <!-- img src="fonts/svg/robot32.svg" alt="Robot" -->
-          <header>
-            <h3>My Kids</h3>
-          </header>
-          <p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.</p>
-        </section>
-      </div>
-    </div>
-    <div class="row">
-      <div class="4u">
-        <section> <span class="icon fi featured flaticon-robotic"></span>
-          <header>
-            <h3>Robots</h3>
-          </header>
-          <p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.</p>
-        </section>
-      </div>
-      <div class="4u">
-        <section> <span class="icon fi featured flaticon-cpu5"></span>
-          <header>
-            <h3>Electronics</h3>
-          </header>
-          <p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.</p>
+          <p>Growing up in Utah inevitably lead to an obsession with skiing and snowboarding.  Unfortunately, due to a severe lack of real snow and/or mountains on the east coast, this one is temporarily on hold.</p>
         </section>
       </div>
       <div class="4u">
         <section> <span class="icon fi featured flaticon-man362"></span>
           <header>
-            <h3>Frisbee</h3>
+            <h3>Ultimate Frisbee</h3>
           </header>
-          <p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.</p>
+          <p>Many (probably most) people don't consider ultimate frisbee a real sport.  Having played college level ultimate for 6+ years now, I might agree with them.  It's still a great way to get some exercise, though.</p>
         </section>
       </div>
     </div>

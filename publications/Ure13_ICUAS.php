@@ -6,9 +6,9 @@
 <i class="fa fa-square-o fa-stack-2x"></i>
 <i class="fa fa-quote-left fa-stack-1x"></i>
 </span></button>
-  <!--a href="http://acl.mit.edu/papers/Cutler13_ICUAS.pdf" target="_blank" class="button icon"><span class="fa-stack fa-lg">
+  <a href="http://acl.mit.edu/papers/Ure13_ICUAS.pdf" target="_blank" class="button icon"><span class="fa-stack fa-lg">
 <i class="fa fa-square-o fa-stack-2x"></i>
 <i class="fa fa-cloud-download fa-stack-1x"></i>
-</span></a-->
+</span></a>
 </div>
 </div>
