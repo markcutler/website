@@ -18,16 +18,13 @@
     
     - add transitions for buttons
     
-    - add popup message for bibtex and download buttons
-    
-    - check out mixitup as a submodule with git
-    
     - fix Attributions link when in mobile mode
     
-    - center close button
-    
-    - fix alpha problem with bibtex and download buttons 
-    
+    FEATURES TO ADD:
+    - break up experience and education
+    - link to cv and resume
+    - add awards section
+    - add skills section
 -->
 <html>
 <head>
@@ -136,10 +133,10 @@
     <div class="row half">
       <div class="4u">
         <header>
-          <h1> <i class="fa fa-graduation-cap"></i> Massachusetts Institute of Technology</h1>
+          <h1> <i class="fa fa-graduation-cap"></i><strong>&nbsp Massachusetts Institute of Technology</strong></h1>
         </header>
         Sept 2012 - Jun 2015 </div>
-      <div class="-2u 6u">
+      <div class="-1u 7u">
         <p><strong>Ph.D. -- Robotics and Autonomous Systems</strong> <br>
           <a href="mfrl.php"> My research</a> focuses on decision making under uncertainty for autonomous systems.  In particular, I am interested in robotic agents that learn through environment interaction.  The learning efficiency is increased by using available simulations of the robot and the environment.</p>
       </div>
@@ -147,11 +144,11 @@
     <div class="row half">
       <div class="4u">
         <header>
-          <h1> <i class="fa fa-graduation-cap"></i> Massachusetts Institute of Technology</h1>
+          <h1> <i class="fa fa-graduation-cap"></i><strong>&nbsp Massachusetts Institute of Technology</strong></h1>
         </header>
         <p>Sept 2010 - Sept 2012</p>
       </div>
-      <div class="-2u 6u">
+      <div class="-1u 7u">
         <p><strong>M.S. -- Aerospace Engineering</strong><br>
           I designed, built, and flew a <a href="var-pitch.html">novel quadrotor</a> with variable-pitch propellers. &nbsp;The variable-pitch actuators enable aggressive and aerobatic flight previously impossible with multi-rotor helicopters. &nbsp;I also developed new flight control algorithms and <a href="autopilots.php">autopilot hardware</a> to control the vehicle.</p>
       </div>
@@ -159,11 +156,11 @@
     <div class="row half">
       <div class="4u">
         <header>
-          <h1> <i class="fa fa-graduation-cap"></i> Brigham Young University</h1>
+          <h1> <i class="fa fa-graduation-cap"></i><strong>&nbsp Brigham Young University</strong></h1>
         </header>
         <p>Sept 2004 - April 2005, Sept 2007 - April 2010</p>
       </div>
-      <div class="-2u 6u">
+      <div class="-1u 7u">
         <p><strong>Bachelor -- Mechanical Engineering</strong><br>
           As an udergraduate at BYU I worked on several projects, including <a href="http://acl.mit.edu/papers/Cutler10_GNC.pdf" target="_blank">energy harvesting for autonomous sailplanes</a>, <a href="http://acl.mit.edu/papers/Thomson09_ASM.pdf" target="_blank">flapping flight optimization</a>, and <a href="http://acl.mit.edu/papers/Barret09_EJLA.pdf" target="_blank">theoretical linear algebra</a> (just enough to realize I like robots more than math theory).</p>
       </div>
@@ -174,11 +171,11 @@
     <div class="row half">
       <div class="4u">
         <header>
-          <h1>SpotterRF</h1>
+          <h1><i class="fa fa-desktop"></i><strong>&nbsp SpotterRF</strong></h1>
         </header>
         <p>April 2010 - Aug 2010</p>
       </div>
-      <div class="-2u 6u">
+      <div class="-1u 7u">
         <p><strong>Mechanical Design Engineer</strong><br>
           As the sole mechanical engineer, I developed new heat management techniques for small radar devices resulting in a significant high-temperature performance increase. &nbsp;I also designed a new carbon-fiber, light-weight case for the radar encasement.</p>
       </div>
@@ -187,29 +184,29 @@
     <div class="row half">
       <div class="4u">
         <header>
-          <h1>L-3 Communications</h1>
+          <h1><i class="fa fa-desktop"></i><strong>&nbsp L-3 Communications</strong></h1>
         </header>
         <p>May 2009 - Aug 2009</p>
       </div>
-      <div class="-2u 6u">
+      <div class="-1u 7u">
         <p><strong>Mechanical Design Engineer</strong><br>
-          I designed a demo platform for integration of a new modem into a mobile communication ground station. &nbsp;I also performed thermal, structural, weight, and power analyses to optimize data link and modem case designs.</p>
+          I designed a demo platform for integration of a new modem into a mobile communication ground station. I also performed thermal, structural, weight, and power analyses to optimize data link and modem case designs.</p>
       </div>
     </div>
     <div class="row half">
       <div class="4u">
         <header>
-          <h1>Corning</h1>
+          <h1><i class="fa fa-desktop"></i><strong>&nbsp Corning</strong></h1>
         </header>
         <p>June 2008 - Aug 2008</p>
       </div>
-      <div class="-2u 6u">
+      <div class="-1u 7u">
         <p><strong>Advanced Machine Systems Engineer</strong><br>
           I researched and tested a method that reduced tool run-out by 55% in countouring mills that manufacture &nbsp;diesel particulate filters. &nbsp;I also designed a novel mechanism enabling the cutting of wet ceramic extrusions to be performed by one person instead of two.</p>
       </div>
     </div>
   </section>
-  BYU Office of Research and Creative Activities Grant
+  <!--BYU Office of Research and Creative Activities Grant-->
   <!--section class="wrapper style2 container special-alt">
 						<div class="row half">
 							<div class="8u">
