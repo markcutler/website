@@ -100,7 +100,7 @@
         	<img src="images/mark-01.png" width="268" height="308" alt=""/> 
             <div class="row half">
             <div class="-2u 8u">
-            <p>I am a 28-year old robotist, husband, and father.  I grew up building and flying model airplanes and dreaming about robots. I am passionate about the future of every-day robotics and automation, particuarly flying robots.</p>
+            <p>I am a 28-year old roboticist, husband, and father.  I am currently finishing up a PhD in Robotics at MIT.  I grew up building and flying model airplanes and dreaming about robots. I am passionate about the future of every-day robotics and automation, particularly flying robots.</p>
             </div>
             </div>
     <!--div class="row half">
