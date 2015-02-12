@@ -123,9 +123,10 @@ pre code {
 	-webkit-backface-visibility: hidden;
 	line-height: 100%;
 }
-.container_pub.alt {
-	color: inherit;
-}
+/*.container_pub.alt {
+	text-color: blue;
+	color: blue;
+}*/
 .container_pub .title{
     font-size: 1.15em;
 	line-height: 120%;
@@ -811,6 +812,9 @@ input[type="button"].small,  input[type="submit"].small,  input[type="reset"].sm
 .wrapper.style2 a {
 	color: white;
 }
+.wrapper.style2 .container_pub a {
+	color: black;
+}
 .wrapper.style2 .button:hover {
 	background: rgba(255, 255, 255, 0.15) !important;
 }
@@ -826,6 +830,19 @@ input[type="button"].small,  input[type="submit"].small,  input[type="reset"].sm
 .wrapper.style3 {
 	background: white;
 	color: inherit;
+}
+.wrapper.style3 h3 a {
+	-moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+	-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+	-o-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+	-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+	transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+	color: #3fb1a3;
+	text-decoration: none;
+	border-bottom: dotted 1px;
+}
+.wrapper.style3 h3 a:hover {
+	border-bottom-color: transparent;
 }
 .wrapper.style4 {
 	background: white;

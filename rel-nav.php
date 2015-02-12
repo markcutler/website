@@ -6,7 +6,7 @@
 -->
 <html>
 <head>
-<title>MFRL</title>
+<title>Quadrotor Relative Navigation</title>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <meta name="description" content="" />
 <meta name="keywords" content="" />
@@ -35,8 +35,8 @@
 
 <!-- Main -->
 <article id="main">
-  <header class="special container"> <span class="icon fa-car"></span>
-    <h2>Real-World Reinforcement Learning via Multi-Fidelity Simulators</h2>
+  <header class="special container"> <span class="icon fi flaticon-cpu5"></span>
+    <h2>Quadrotor Relative Navigation</h2>
     <!--p>Where that in the center faces the nameless horrors alone.</p--> 
   </header>
   
@@ -47,9 +47,30 @@
     <div class="content">
       <section>
         <div class="row">
-          <div class="8u -2u 12u(2)"> <span class="image featured"><img src="images/mfrl.png" alt="" /></span> </div>
+          <div class="8u -2u 12u(2)"> <span class="image featured"><img src="images/flying_quad.png" alt="" /></span> </div>
         </div>
-        <p>Reinforcement learning (RL) can be a tool for designing policies and controllers for robotic systems. However, the cost of real-world samples remains prohibitive as many RL algorithms require a large number of samples before learning useful policies. Simulators are one way to decrease the number of required real-world samples, but imperfect models make deciding when and how to trust samples from a simulator difficult. This project presents a framework, called Multi-Fidelity Reinforcement Learning (MFRL), for efficient RL in a scenario where multiple simulators of a target task are available, each with varying levels of fidelity. The framework is designed to limit the number of samples used in each successively higher-fidelity/cost simulator by allowing a learning agent to choose to run trajectories at the lowest level simulator that will still provide it with useful information. Theoretical proofs of the framework's sample complexity are given and empirical results are demonstrated on a remote controlled car with multiple simulators. The approach enables RL algorithms to find near-optimal policies in a physical robot domain with fewer expensive real-world samples than previous transfer approaches or learning without simulators.</p>
+        <p>Fixed-pitch quadrotors are popular research and hobby platforms
+  largely due to their mechanical simplicity relative to other
+  hovering aircraft.  This simplicity, however, places fundamental
+  limits on the achievable actuator bandwidth and the possible flight
+  maneuvers.  This project shows that many of these limitations can be
+  overcome by utilizing variable-pitch propellers on a quadrotor.  I performed a
+  detailed analysis of the potential benefits of variable-pitch
+  propellers over fixed-pitch propellers for a quadrotor.
+  This analysis is supported with experimental testing to show that
+  variable-pitch propellers, in addition to allowing for generation of
+  reverse thrust, substantially increase the maximum rate of thrust
+  change.  I also developed a nonlinear, quaternion-based control algorithm for
+  controlling the quadrotor with an accompanying
+  trajectory generation method that finds polynomial minimum-time
+  paths based on actuator saturation levels.  I implemented the control law and
+  trajectory generation algorithms on a custom
+  variable-pitch quadrotor, utilizing my own <a href="autopilot.php">autopilot</a>.  Flight tests
+  highlight the benefits of a variable-pitch quadrotor over a standard
+  fixed-pitch quadrotor for performing aggressive and aerobatic
+  maneuvers.</p>
+  
+  <p>The videos below show the prototype variable-pitch quadrotor that I built.  The quadrotor is controlled using the developed trajectory generation algorithms.</p>
         
         <!--
 first we'll need a container for our video,
@@ -63,13 +84,13 @@ the 'restraining' element.
     here's your embedded content,
     whatever it may be..
     -->
-              <iframe width="1280" height="720" src="http://www.youtube.com/embed/-UYu0cGER-s?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+              <iframe width="1280" height="720" src="http://www.youtube.com/embed/VIkqqVr_u9U?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
             </div>
             <!--end embed--> 
           </div>
         </div>
-        <br>
-        <p>This simple toy domain illustrates the progression of the algorithm. On the right, the 'real' world consists of an agent starting in the lower-left corner of the grid world and trying to find a policy to lead it to the upper-right goal region. Negative reward is a accumulated in the puddle. The worlds on the right consist of low- and medium-fidelity models of the real world. The learning agent transitions between levels several times, leveraging the lower-fidelity worlds to learn an optimal policy in the real world while minimizing the steps taken there.</p>
+        
+        
         <!--
 first we'll need a container for our video,
 the 'restraining' element.
@@ -82,13 +103,17 @@ the 'restraining' element.
     here's your embedded content,
     whatever it may be..
     -->
-              <iframe width="1280" height="720" src="http://www.youtube.com/embed/c_d0Is3bxXA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+              <iframe width="1280" height="720" src="http://www.youtube.com/embed/Vy5Ky50eGJs?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
             </div>
             <!--end embed--> 
           </div>
         </div>
         <br>
-        <p>Finally, the MFRL framework is demonstrated in this real-world remote-controlled (RC) car domain.  The RC car learns a policy for quickly racing around a track by efficiently utilizing two available simulators.</p>
+        <p>Since this work was completed, several commercial variable-pitch quadrotors (like <a href="http://curtisyoungblood.com/V2/products/quadcopters/stingray-500" target="_blank">this one</a> and <a href="http://www.hobbyking.com/hobbyking/store/__66936__Assault_Reaper_500_Collective_Pitch_3D_Quadcopter_Mode_2_Ready_to_Fly_.html" target="_blank">this one</a>) have become available, further validating the original idea.</p>
+        <header>
+        <h3>Media</h3>
+        </header>
+        <p>My variable-pitch quadrotor was featured on several websites such as <a href="http://gizmodo.com/5888117/breakthrough-quadcopter-does-previously-impossible-acrobatics" target="_blank">Gizmodo</a>, <a href="http://hackaday.com/2012/02/24/variable-pitch-quadrocopter-flies-upside-down/" target="_blank">Hackaday</a>, and <a href="http://diydrones.com/profiles/blogs/variable-pitch-quads-fly-upside-down" target="_blank">DIY Drones</a>.
       </section>
     </div>
   </section>
@@ -99,9 +124,7 @@ the 'restraining' element.
   <h2><strong>Related Publications</strong></h2>
 </header>
     <div id="Publications" class="container_pub alt">
-      <?php include 'publications/Cutler14_ICRA.php'; ?>
-      <?php include 'publications/Cutler14_TRO.php'; ?>
-      <?php include 'publications/Cutler15_ICRA.php'; ?>
+      <?php include 'publications/Cutler13_ICUAS.php'; ?>
     </div>
   </section>
   

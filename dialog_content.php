@@ -52,7 +52,7 @@
   Month = {May},
   Organization = {IEEE},
   Title = {Decoupled Multiagent Path Planning via Incremental Sequential Convex Programming},
-  Year = {2015}
+  Year = {2015 (to appear)}
 }
 </pre>
       <div>
@@ -268,6 +268,24 @@
       </div>
     </div>
   </div>
+    <div id="Cutler14_DSMC_bib" class="dialog">
+    <div class="dialog__overlay"></div>
+    <div class="dialog__content">
+      <pre>
+@article{Cutler14_DSMC,
+	Author = {Mark Cutler and Jonathan P. How},
+	Journal = {ASME Journal of Dynamic Systems, Measurement and Control},
+	Title = {Analysis and Control of a Variable-Pitch Quadrotor for Agile Flight},
+    Year = {2014 (submitted)},
+    Organization = {ASME}
+	}</pre>
+      <div>
+      <div class="close_button">
+      <button class="action" data-dialog-close>Close</button>
+      </div>
+      </div>
+    </div>
+  </div>
   <div id="Cutler15_ICRA_bib" class="dialog">
     <div class="dialog__overlay"></div>
     <div class="dialog__content">
@@ -279,7 +297,7 @@
   Month = {May},
   Organization = {IEEE},
   Title = {Efficient Reinforcement Learning for Robots using Informative Simulated Priors},
-  Year = {2015 (submitted}
+  Year = {2015 (to appear}
 }
 </pre>
       <div>

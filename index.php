@@ -93,16 +93,14 @@
 
 <!-- Main -->
 <article id="main">
-  <header class="special container"> 
-  <span class="icon fa-camera"></span>
+  <header class="special container"> <span class="icon fa-camera"></span>
     <h2><strong>About</strong></h2>
-  
-        	<img src="images/mark-01.png" width="268" height="308" alt=""/> 
-            <div class="row half">
-            <div class="-2u 8u">
-            <p>I am a 28-year old robotist, husband, and father.  I grew up building and flying model airplanes and dreaming about robots. I am passionate about the future of every-day robotics and automation, particuarly flying robots.</p>
-            </div>
-            </div>
+    <img src="images/mark-01.png" width="268" height="308" alt=""/>
+    <div class="row half">
+      <div class="-2u 8u">
+        <p>I am a 28-year old robotist, husband, and father.  I grew up building and flying model airplanes and dreaming about robots. I am passionate about the future of every-day robotics and automation, particuarly flying robots.</p>
+      </div>
+    </div>
     <!--div class="row half">
       <div class="-2u 4u" align="center">
         <section> <img src="images/mark-01.png" width="268" height="308" alt=""/> </section>
@@ -122,7 +120,7 @@
           </p>
         </section>
       </div>
-    </div-->
+    </div--> 
   </header>
   
   <!-- One -->
@@ -206,7 +204,7 @@
       </div>
     </div>
   </section>
-  <!--BYU Office of Research and Creative Activities Grant-->
+  <!--BYU Office of Research and Creative Activities Grant--> 
   <!--section class="wrapper style2 container special-alt">
 						<div class="row half">
 							<div class="8u">
@@ -244,39 +242,39 @@
     </header>
     <div class="row">
       <div class="6u 12u(2)">
-        <section> <a href="var-pitch.html" class="image featured thumbnail"><img src="images/var-pitch-quad.JPG" alt="" /></a>
+        <section> <a href="mfrl.php" class="image featured thumbnail"><img src="images/car_no_background.png" alt="" /></a>
           <header>
-            <h3>Variable-Pitch Quadrotor</h3>
+            <h3><a href="mfrl.php">Multi-Fidelity Reinforcement Learning</a></h3>
           </header>
-          <p>TODO</p>
-          <!--p>This project aims to develop a varible-pitch quadrotor capable of aggressive aerobatic manuvers which stretch beyond the current abilities of typical fixed-pitch quadrotors.</p>
-          <p>Fixed-pitch quadrotors are limited in their ability to make abrupt changes in thrust or to create negative thrust. The control bandwidth of a typical fixed-pitch quadrotor is restricted by the rotational inertia of the motor and propellers; however, with a variable-pitch design, the control bandwidth is increased. The variable-pitch actuators allow the propellers to change from a full positive pitch to a full negative pitch in rougly 0.07 seconds while the motor remains at maximum RPM, allowing the quadrotor to change from maximum positive thrust to maximum negative thrust extremely fast.</p-->
+          <p>Efficient reinforcement learning algorithms for robots through the principled use of simulated data.</p>
         </section>
       </div>
       <div class="6u 12u(2)">
-        <section> <a href="#" class="image featured thumbnail"><img src="images/autopilot.JPG" alt="" /></a>
+        <section> <a href="var-pitch.php" class="image featured thumbnail"><img src="images/var-pitch-quad.JPG" alt="" /></a>
           <header>
-            <h3>Autopilot Design</h3>
+            <h3><a href="var-pitch.php">Variable-Pitch Quadrotor</a></h3>
           </header>
-          <p>I have designed, built, and programmed several autopilots for autonomous flying and ground vehicles.</p>
+          <p>Design, construction, and flight algorithms for a novel quadrotor capable of aggressive flight.</p>
+          <!--p>This project aims to develop a varible-pitch quadrotor capable of aggressive aerobatic manuvers which stretch beyond the current abilities of typical fixed-pitch quadrotors.</p>
+          <p>Fixed-pitch quadrotors are limited in their ability to make abrupt changes in thrust or to create negative thrust. The control bandwidth of a typical fixed-pitch quadrotor is restricted by the rotational inertia of the motor and propellers; however, with a variable-pitch design, the control bandwidth is increased. The variable-pitch actuators allow the propellers to change from a full positive pitch to a full negative pitch in rougly 0.07 seconds while the motor remains at maximum RPM, allowing the quadrotor to change from maximum positive thrust to maximum negative thrust extremely fast.</p--> 
         </section>
       </div>
     </div>
     <div class="row">
       <div class="6u 12u(2)">
-        <section> <a href="#" class="image featured thumbnail"><img src="images/wii-quad.jpg" alt="" /></a>
+        <section> <a href="autopilot.php" class="image featured thumbnail"><img src="images/autopilot.JPG" alt="" /></a>
           <header>
-            <h3>Relative Navigation</h3>
+            <h3><a href="autopilot.php">Autopilot Design</a></h3>
           </header>
-          <p>An autonomous quadrotor that navigates relative to a set of known beacons.</p>
+          <p>Design, construction, and programming of several autopilots for autonomous air and ground vehicles.</p>
         </section>
       </div>
       <div class="6u 12u(2)">
-        <section> <a href="mfrl.php" class="image featured thumbnail"><img src="images/car_no_background.png" alt="" /></a>
+        <section> <a href="rel-nav.php" class="image featured thumbnail"><img src="images/wii-quad.jpg" alt="" /></a>
           <header>
-            <h3>Multi-Fidelity Reinforcement Learning</h3>
+            <h3><a href="rel-nav.php">Relative Navigation</a></h3>
           </header>
-          <p>TODO.</p>
+          <p>An autonomous quadrotor that navigates relative to a set of known beacons.</p>
         </section>
       </div>
     </div>
@@ -289,7 +287,7 @@
     
   </section>
   
-    <!-- One -->
+  <!-- One -->
   <section id="pubs" class="wrapper style3 container special">
     <header>
       <h2><strong>Selected Publications</strong></h2>
@@ -320,7 +318,6 @@
       <h2><strong>Interests</strong></h2>
     </header>
     <div class="row">
-      
       <div class="4u">
         <section> <span class="icon fi featured flaticon-sleeping4"></span> 
           <!-- img src="fonts/svg/robot32.svg" alt="Robot" -->
@@ -330,7 +327,7 @@
           <p>Hailey (4), Rachel (2), and Aaron (0).  Still trying to figure out how to tap into their energy supplies to try and heat our home.</p>
         </section>
       </div>
-            <div class="4u">
+      <div class="4u">
         <section> <span class="icon fi featured flaticon-robotic"></span>
           <header>
             <h3>Robots</h3>
@@ -387,7 +384,6 @@
     </div>
   </section>
 </article>
-
 <?php include 'footer.php'; ?>
 <?php include 'dialog_content.php'; ?>
 <script src="js/classie.js"></script> 

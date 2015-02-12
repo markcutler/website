@@ -74,11 +74,7 @@
       <?php include 'publications/Cutler10_GNC.php'; ?>
       <?php include 'publications/Thomson09_ASM.php'; ?>
       <?php include 'publications/Barrett09_EJLA.php'; ?>
-      <div class="mix journal" data-myorder="2014">
-        <div class="title">Analysis and Control of a Variable-Pitch Quadrotor for Agile Flight</div>
-        <div class="authors"><b>Mark Cutler</b>, Jonathan P. How</div>
-        <div class="location_info">ASME Journal of Dynamic Systems, Measurement and Control, 2014 (submitted)</div>
-      </div>
+      <?php include 'publications/Cutler14_DSMC.php'; ?>
     </div>
   </section>
   
