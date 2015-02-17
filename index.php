@@ -144,7 +144,7 @@
         <header>
           <h1> <i class="fa fa-graduation-cap"></i><strong>&nbsp Massachusetts Institute of Technology</strong></h1>
         </header>
-        <p>Sept 2010 - Sept 2012</p>
+        Sept 2010 - Sept 2012
       </div>
       <div class="-1u 7u">
         <p><strong>M.S. -- Aerospace Engineering</strong><br>
@@ -156,7 +156,7 @@
         <header>
           <h1> <i class="fa fa-graduation-cap"></i><strong>&nbsp Brigham Young University</strong></h1>
         </header>
-        <p>Sept 2004 - April 2005, Sept 2007 - April 2010</p>
+        Sept 2004 - April 2005, Sept 2007 - April 2010
       </div>
       <div class="-1u 7u">
         <p><strong>Bachelor -- Mechanical Engineering</strong><br>
@@ -171,7 +171,7 @@
         <header>
           <h1><i class="fa fa-desktop"></i><strong>&nbsp SpotterRF</strong></h1>
         </header>
-        <p>April 2010 - Aug 2010</p>
+        April 2010 - Aug 2010
       </div>
       <div class="-1u 7u">
         <p><strong>Mechanical Design Engineer</strong><br>
@@ -184,7 +184,7 @@
         <header>
           <h1><i class="fa fa-desktop"></i><strong>&nbsp L-3 Communications</strong></h1>
         </header>
-        <p>May 2009 - Aug 2009</p>
+        May 2009 - Aug 2009
       </div>
       <div class="-1u 7u">
         <p><strong>Mechanical Design Engineer</strong><br>
@@ -196,7 +196,7 @@
         <header>
           <h1><i class="fa fa-desktop"></i><strong>&nbsp Corning</strong></h1>
         </header>
-        <p>June 2008 - Aug 2008</p>
+        June 2008 - Aug 2008
       </div>
       <div class="-1u 7u">
         <p><strong>Advanced Machine Systems Engineer</strong><br>
@@ -206,9 +206,9 @@
         <div class="row half">
       <div class="4u">
         <header>
-          <h1><i class="fa life-ring"></i><strong>&nbsp Volunteer</strong></h1>
+          <h1><i class="fa fa-plane"></i><strong>&nbsp Volunteer</strong></h1>
         </header>
-        <p>July 2005 - July 2007</p>
+        July 2005 - July 2007
       </div>
       <div class="-1u 7u">
         <p><strong>The Church of Jesus Christ of Latter-day Saints</strong><br>
