@@ -114,6 +114,15 @@ the 'restraining' element.
         <h3>Media</h3>
         </header>
         <p>My variable-pitch quadrotor was featured on several websites such as <a href="http://gizmodo.com/5888117/breakthrough-quadcopter-does-previously-impossible-acrobatics" target="_blank">Gizmodo</a>, <a href="http://hackaday.com/2012/02/24/variable-pitch-quadrocopter-flies-upside-down/" target="_blank">Hackaday</a>, and <a href="http://diydrones.com/profiles/blogs/variable-pitch-quads-fly-upside-down" target="_blank">DIY Drones</a>.
+        
+        <header>
+        <h3>Fails</h3>
+        </header>
+        <p>It probably goes without saying, but the variable-pitch quadrotor didn't always work.  One of the most notable fails was when our autopilot power distribution board short-circuited during a crash, causing the battery to ignite.  You can see the burn marks on the autopilot and the floor.</p>
+        <div class="row">
+          <div class="8u -2u 12u(2)"> <span class="image featured"><img src="images/uberquad_burn.jpg" alt="" /></span> </div>
+        </div>
+        
       </section>
     </div>
   </section>

@@ -148,7 +148,7 @@
       </div>
       <div class="-1u 7u">
         <p><strong>M.S. -- Aerospace Engineering</strong><br>
-          I designed, built, and flew a <a href="var-pitch.html">novel quadrotor</a> with variable-pitch propellers. &nbsp;The variable-pitch actuators enable aggressive and aerobatic flight previously impossible with multi-rotor helicopters. &nbsp;I also developed new flight control algorithms and <a href="autopilots.php">autopilot hardware</a> to control the vehicle.</p>
+          I designed, built, and flew a <a href="var-pitch.php">novel quadrotor</a> with variable-pitch propellers. &nbsp;The variable-pitch actuators enable aggressive and aerobatic flight previously impossible with multi-rotor helicopters. &nbsp;I also developed new flight control algorithms and <a href="autopilot.php">autopilot hardware</a> to control the vehicle.</p>
       </div>
     </div>
     <div class="row half">
@@ -160,7 +160,7 @@
       </div>
       <div class="-1u 7u">
         <p><strong>Bachelor -- Mechanical Engineering</strong><br>
-          As an udergraduate at BYU I worked on several projects, including <a href="http://acl.mit.edu/papers/Cutler10_GNC.pdf" target="_blank">energy harvesting for autonomous sailplanes</a>, <a href="http://acl.mit.edu/papers/Thomson09_ASM.pdf" target="_blank">flapping flight optimization</a>, and <a href="http://acl.mit.edu/papers/Barret09_EJLA.pdf" target="_blank">theoretical linear algebra</a> (just enough to realize I like robots more than math theory).</p>
+          As an undergraduate at BYU I worked on several projects, including <a href="http://acl.mit.edu/papers/Cutler10_GNC.pdf" target="_blank">energy harvesting for autonomous sailplanes</a>, <a href="http://acl.mit.edu/papers/Thomson09_ASM.pdf" target="_blank">flapping flight optimization</a>, and <a href="http://acl.mit.edu/papers/Barret09_EJLA.pdf" target="_blank">theoretical linear algebra</a> (just enough to realize I like robots more than math theory).</p>
       </div>
     </div>
     <header class="container">
@@ -200,7 +200,19 @@
       </div>
       <div class="-1u 7u">
         <p><strong>Advanced Machine Systems Engineer</strong><br>
-          I researched and tested a method that reduced tool run-out by 55% in countouring mills that manufacture &nbsp;diesel particulate filters. &nbsp;I also designed a novel mechanism enabling the cutting of wet ceramic extrusions to be performed by one person instead of two.</p>
+          I researched and tested a method that reduced tool run-out by 55% in contouring mills that manufacture &nbsp;diesel particulate filters. &nbsp;I also designed a novel mechanism enabling the cutting of wet ceramic extrusions to be performed by one person instead of two.</p>
+      </div>
+    </div>
+        <div class="row half">
+      <div class="4u">
+        <header>
+          <h1><i class="fa life-ring"></i><strong>&nbsp Volunteer</strong></h1>
+        </header>
+        <p>July 2005 - July 2007</p>
+      </div>
+      <div class="-1u 7u">
+        <p><strong>The Church of Jesus Christ of Latter-day Saints</strong><br>
+          I lived in the Rostov, Russia area for two years as a missionary.  I provided leadership and training for 16 other volunteer representatives, overseeing operations in a geographical area covering over 300 miles.  Interacting with Russian people each day, I learned to speak, read, and write Russian fluently.</p>
       </div>
     </div>
   </section>

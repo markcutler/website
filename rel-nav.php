@@ -6,7 +6,7 @@
 -->
 <html>
 <head>
-<title>Quadrotor Relative Navigation</title>
+<title>Relative Navigation</title>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <meta name="description" content="" />
 <meta name="keywords" content="" />
@@ -49,71 +49,53 @@
         <div class="row">
           <div class="8u -2u 12u(2)"> <span class="image featured"><img src="images/flying_quad.png" alt="" /></span> </div>
         </div>
-        <p>Fixed-pitch quadrotors are popular research and hobby platforms
-  largely due to their mechanical simplicity relative to other
-  hovering aircraft.  This simplicity, however, places fundamental
-  limits on the achievable actuator bandwidth and the possible flight
-  maneuvers.  This project shows that many of these limitations can be
-  overcome by utilizing variable-pitch propellers on a quadrotor.  I performed a
-  detailed analysis of the potential benefits of variable-pitch
-  propellers over fixed-pitch propellers for a quadrotor.
-  This analysis is supported with experimental testing to show that
-  variable-pitch propellers, in addition to allowing for generation of
-  reverse thrust, substantially increase the maximum rate of thrust
-  change.  I also developed a nonlinear, quaternion-based control algorithm for
-  controlling the quadrotor with an accompanying
-  trajectory generation method that finds polynomial minimum-time
-  paths based on actuator saturation levels.  I implemented the control law and
-  trajectory generation algorithms on a custom
-  variable-pitch quadrotor, utilizing my own <a href="autopilot.php">autopilot</a>.  Flight tests
-  highlight the benefits of a variable-pitch quadrotor over a standard
-  fixed-pitch quadrotor for performing aggressive and aerobatic
-  maneuvers.</p>
-  
-  <p>The videos below show the prototype variable-pitch quadrotor that I built.  The quadrotor is controlled using the developed trajectory generation algorithms.</p>
+        <p>Many researchers have demonstrated significant and impressive results of UAVs flying in GPS-denied environments, typically using expensive (financially and/or computationally) sensors such as cameras and laser scanners.  If many aerial robots are needed to perform a task collaboratively, it may be advantageous to outfit a few of the robots with expensive sensors and algorithms for global situational awareness (flight relative to a room, for instance), while keeping the rest of the vehicles simple, allowing them to navigate relative to the leader robots.</p>
         
-        <!--
-first we'll need a container for our video,
-the 'restraining' element.
--->
+        <p>In an attempt to realize this goal, I developed a lightweight solution for estimating position
+and velocity relative to a known marker.
+The marker consists of three infrared (IR) LEDs
+in a fixed pattern. Using an IR camera with a 100 Hz
+update rate (a camera from a Wii remote), the range and bearing to the marker are
+calculated. I then fuse this information with inertial
+sensor information to produce state estimates at 1 kHz
+using a sigma point Kalman filter. The computation
+takes place on a 14 gram custom autopilot, yielding a
+lightweight system for generating high-rate relative state
+information. I compared the estimation scheme to data
+recorded with a motion capture system.</p>
+        
         <div class="row">
-          <div class="8u -2u 12u(2)">
-            <div class="embed"> 
-              
-              <!--  
-    here's your embedded content,
-    whatever it may be..
-    -->
-              <iframe width="1280" height="720" src="http://www.youtube.com/embed/VIkqqVr_u9U?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-            </div>
-            <!--end embed--> 
-          </div>
+          <div class="8u -2u 12u(2)"> <span class="image featured"><img src="images/rel-nav-autopilot.png" alt="" /></span> </div>
         </div>
         
+        <p>This is the autopilot I designed and built for the project, and the sensors that were used.  The autopilot itself contains a dual-core TI microcontroller, inertial sensors, and a barometer.  Externally, a sonar estimates height to the ground and the Wii camera (not see in this image), sees the IR LEDs on the known marker. </p>
         
-        <!--
-first we'll need a container for our video,
-the 'restraining' element.
--->
+        
         <div class="row">
-          <div class="8u -2u 12u(2)">
-            <div class="embed"> 
-              
-              <!--  
-    here's your embedded content,
-    whatever it may be..
-    -->
-              <iframe width="1280" height="720" src="http://www.youtube.com/embed/Vy5Ky50eGJs?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-            </div>
-            <!--end embed--> 
-          </div>
+          <div class="8u -2u 12u(2)"> <span class="image featured"><img src="images/block_diagram.png" alt="" /></span> </div>
         </div>
-        <br>
-        <p>Since this work was completed, several commercial variable-pitch quadrotors (like <a href="http://curtisyoungblood.com/V2/products/quadcopters/stingray-500" target="_blank">this one</a> and <a href="http://www.hobbyking.com/hobbyking/store/__66936__Assault_Reaper_500_Collective_Pitch_3D_Quadcopter_Mode_2_Ready_to_Fly_.html" target="_blank">this one</a>) have become available, further validating the original idea.</p>
+        
+        <p>This is a rough block diagram of the data flow for the project, including the rates at which various sensors are read and algorithms are executed.  I designed, manufactured, and programmed the autopilot from the ground up.</p>
+        
+        <div class="row">
+          <div class="8u -2u 12u(2)"> <span class="image featured"><img src="images/computation_framework.png" alt="" /></span> </div>
+        </div>
+        
+        <p>Finally, this is a diagram of the autopilot architecture, including the communication protocols for the sensors and the computation distribution between the two cores.</p>
+        
         <header>
-        <h3>Media</h3>
+        <h3>Lessons Learned</h3>
         </header>
-        <p>My variable-pitch quadrotor was featured on several websites such as <a href="http://gizmodo.com/5888117/breakthrough-quadcopter-does-previously-impossible-acrobatics" target="_blank">Gizmodo</a>, <a href="http://hackaday.com/2012/02/24/variable-pitch-quadrocopter-flies-upside-down/" target="_blank">Hackaday</a>, and <a href="http://diydrones.com/profiles/blogs/variable-pitch-quads-fly-upside-down" target="_blank">DIY Drones</a>.
+        <p>This was a really fun project and I learned a lot of valuable things.  Here are a few:</p>
+        <ul style="list-style-type:disc">
+        <li>Hardware is hard.  For instance, I spent many, many days trying to get the sigma-point filter code to fit in the available memory on the autopilot.</li>
+        <li>Prototype with the right data.  The original filter code was developed using a data-set collected by moving the autopilot around by hand.  The vibrations induced by the motors during flight, though, were very significant and could have been accounted for had I collected the data set from a flying vehicle instead.</li>
+        <li>Don't use cutting-edge microcontrollers.  I originally thought that the new TI dual-core microcontroller was a really good idea, but it didn't have a big enough user base yet.  Instead, I should have used two popular single-core microcontrollers and just sent data between them over SPI or another protocol.</li>
+        <li>Hardware is really fun.  I had a blast going from initial concept all the way through circuit design, hardware construction, programming, and flight testing.</li>
+        </ul>
+        
+        
+        
       </section>
     </div>
   </section>

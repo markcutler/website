@@ -371,10 +371,12 @@
   <div id="attributions" class="dialog">
     <div class="dialog__overlay"></div>
     <div class="dialog__content alt">
+    <ul style="list-style-type:disc">
       <li>Template inspired by <a href="http://html5up.net">HTML5 UP</a></li>
       <li>Icons made by Freepik, SimpleIcon, Icons8 from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a></li>
       <li>Sorting by <a href="https://mixitup.kunkalabs.com/">MixItUp</a></li>
       <li>Dialog effects by <a href="https://github.com/codrops/DialogEffects">codrops</a></li>
+      </ul>
       <br>
       <div class="close_button">
       <button class="action" data-dialog-close>Close</button>
