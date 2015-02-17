@@ -77,7 +77,7 @@ the 'restraining' element.
       <header>
       <h3>Code and Design Files</h3>
       </header>
-      <p>The UberPilot design files are <a href="https://bitbucket.org/markjcutler/uberpilot-pcb">here</a> and the code is <a href="https://bitbucket.org/acl-mit/uberpilot-mc">here</a>.  I'm not sure that this would be userful to anyone else, but shoot me an email if you have any questions.</p>
+      <p>The UberPilot design files are <a href="https://bitbucket.org/markjcutler/uberpilot-pcb">here</a> and the code is <a href="https://bitbucket.org/acl-mit/uberpilot-mc">here</a>.  I'm not sure that this would be useful to anyone else, but shoot me an email if you have any questions.</p>
         
       </section>
     </div>

@@ -15,7 +15,7 @@
 						document.write("<a href='" + "mail" + "to:" + username + "@" + hostname + "'");
 						</script> class="icon fa-envelope-square fa-4x" target="_blank"><span class="label">Email</span></a></li>
       <li><a href="https://www.linkedin.com/pub/mark-cutler/23/939/7a8" class="icon fa-linkedin-square fa-4x" target="_blank"><span class="label">LinkedIn</span></a></li>
-      <li><a href="https://bitbucket.org/markjcutler" class="icon fa-bitbucket-square fa-4x" target="_blank"><span class="label">Github</span></a></li>
+      <li><a href="https://bitbucket.org/markjcutler" class="icon fa-bitbucket-square fa-4x" target="_blank"><span class="label">BitBucket</span></a></li>
       <li><a href="https://www.flickr.com/photos/55516219@N04/" class="icon fa-flickr fa-4x" target="_blank"><span class="label">Flickr</span></a></li>
     </ul>
   </footer>
