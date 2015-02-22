@@ -60,12 +60,18 @@
 </h>
 <nav id="nav">
   <ul>
-    <li class="current"><a href="#main" class="scrolly">About</a></li>
-    <li class="current"><a href="#education" class="scrolly">Education</a></li>
-    <li class="current"><a href="#experience" class="scrolly">Experience</a></li>
+    <li class="submenu"> <a href="">About</a>
+      <ul>
+      <li><a href="MarkJCutlerResume.pdf" class="scrolly">Resume</a></li>
+        <li><a href="#main" class="scrolly">Summary</a></li>
+    	<li><a href="#education" class="scrolly">Education</a></li>
+    	<li><a href="#experience" class="scrolly">Experience</a></li>
+        <li><a href="#interests" class="scrolly">Interests</a></li>
+      </ul>
+    </li>
     <li class="current"><a href="#projects" class="scrolly">Projects</a></li>
     <li class="current"><a href="#pubs" class="scrolly">Publications</a></li>
-    <li class="current"><a href="#interests" class="scrolly">Interests</a></li>
+    <li class="current"><a href="https://bitbucket.org/markjcutler/mark-cutler-overview" class="scrolly">Code</a></li>
     <li class="current"><a href="#footer" class="scrolly">Contact</a></li>
   </ul>
 </nav>
@@ -99,7 +105,7 @@
     <img src="images/mark-01.png" width="268" height="308" alt=""/>
     <div class="row half">
       <div class="-2u 8u">
-            <p>I am a 28-year old roboticist, husband, and father.  I am currently finishing up a PhD in Robotics at MIT.  I grew up building and flying model airplanes and dreaming about robots. I am passionate about the future of every-day robotics and automation, particularly flying robots.</p>
+        <p>I am a 28-year old roboticist, husband, and father.  I am currently finishing up a PhD in Robotics at MIT.  I grew up building and flying model airplanes and dreaming about robots. I am passionate about the future of every-day robotics and automation, particularly flying robots.</p>
       </div>
     </div>
     <!--div class="row half">
@@ -145,8 +151,7 @@
         <header>
           <h1> <i class="fa fa-graduation-cap"></i><strong>&nbsp Massachusetts Institute of Technology</strong></h1>
         </header>
-        Sept 2010 - Sept 2012
-      </div>
+        Sept 2010 - Sept 2012 </div>
       <div class="-1u 7u">
         <p><strong>M.S. -- Aerospace Engineering</strong><br>
           I designed, built, and flew a <a href="var-pitch.php">novel quadrotor</a> with variable-pitch propellers. &nbsp;The variable-pitch actuators enable aggressive and aerobatic flight previously impossible with multi-rotor helicopters. &nbsp;I also developed new flight control algorithms and <a href="autopilot.php">autopilot hardware</a> to control the vehicle.</p>
@@ -157,8 +162,7 @@
         <header>
           <h1> <i class="fa fa-graduation-cap"></i><strong>&nbsp Brigham Young University</strong></h1>
         </header>
-        Sept 2004 - April 2005, Sept 2007 - April 2010
-      </div>
+        Sept 2004 - April 2005, Sept 2007 - April 2010 </div>
       <div class="-1u 7u">
         <p><strong>Bachelor -- Mechanical Engineering</strong><br>
           As an undergraduate at BYU I worked on several projects, including <a href="http://acl.mit.edu/papers/Cutler10_GNC.pdf" target="_blank">energy harvesting for autonomous sailplanes</a>, <a href="http://acl.mit.edu/papers/Thomson09_ASM.pdf" target="_blank">flapping flight optimization</a>, and <a href="http://acl.mit.edu/papers/Barret09_EJLA.pdf" target="_blank">theoretical linear algebra</a> (just enough to realize I like robots more than math theory).</p>
@@ -173,8 +177,7 @@
         <header>
           <h1><i class="fa fa-desktop"></i><strong>&nbsp SpotterRF</strong></h1>
         </header>
-        April 2010 - Aug 2010
-      </div>
+        April 2010 - Aug 2010 </div>
       <div class="-1u 7u">
         <p><strong>Mechanical Design Engineer</strong><br>
           As the sole mechanical engineer, I developed new heat management techniques for small radar devices resulting in a significant high-temperature performance increase. &nbsp;I also designed a new carbon-fiber, light-weight case for the radar encasement.</p>
@@ -186,8 +189,7 @@
         <header>
           <h1><i class="fa fa-desktop"></i><strong>&nbsp L-3 Communications</strong></h1>
         </header>
-        May 2009 - Aug 2009
-      </div>
+        May 2009 - Aug 2009 </div>
       <div class="-1u 7u">
         <p><strong>Mechanical Design Engineer</strong><br>
           I designed a demo platform for integration of a new modem into a mobile communication ground station. I also performed thermal, structural, weight, and power analyses to optimize data link and modem case designs.</p>
@@ -198,20 +200,18 @@
         <header>
           <h1><i class="fa fa-desktop"></i><strong>&nbsp Corning</strong></h1>
         </header>
-        June 2008 - Aug 2008
-      </div>
+        June 2008 - Aug 2008 </div>
       <div class="-1u 7u">
         <p><strong>Advanced Machine Systems Engineer</strong><br>
           I researched and tested a method that reduced tool run-out by 55% in contouring mills that manufacture &nbsp;diesel particulate filters. &nbsp;I also designed a novel mechanism enabling the cutting of wet ceramic extrusions to be performed by one person instead of two.</p>
       </div>
     </div>
-        <div class="row half">
+    <div class="row half">
       <div class="4u">
         <header>
           <h1><i class="fa fa-plane"></i><strong>&nbsp Volunteer</strong></h1>
         </header>
-        July 2005 - July 2007
-      </div>
+        July 2005 - July 2007 </div>
       <div class="-1u 7u">
         <p><strong>The Church of Jesus Christ of Latter-day Saints</strong><br>
           I lived in the Rostov, Russia area for two years as a missionary.  I provided leadership and training for 16 other volunteer representatives, overseeing operations in a geographical area covering over 300 miles.  Interacting with Russian people each day, I learned to speak, read, and write Russian fluently.</p>

@@ -371,6 +371,7 @@
   <div id="attributions" class="dialog">
     <div class="dialog__overlay"></div>
     <div class="dialog__content alt">
+    Thanks to the following for making this site possible:<br><br>
     <ul style="list-style-type:disc">
       <li>Template inspired by <a href="http://html5up.net">HTML5 UP</a></li>
       <li>Icons made by Freepik, SimpleIcon, Icons8 from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a></li>
