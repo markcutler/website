@@ -62,7 +62,7 @@
   <ul>
     <li class="submenu"> <a href="">About</a>
       <ul>
-      <li><a href="MarkJCutlerResume.pdf" class="scrolly">Resume</a></li>
+      <li><a href="MarkJCutlerResume.pdf" class="scrolly">Resume (pdf)</a></li>
         <li><a href="#main" class="scrolly">Summary</a></li>
     	<li><a href="#education" class="scrolly">Education</a></li>
     	<li><a href="#experience" class="scrolly">Experience</a></li>
@@ -108,26 +108,17 @@
         <p>I am a 28-year old roboticist, husband, and father.  I am currently finishing up a PhD in Robotics at MIT.  I grew up building and flying model airplanes and dreaming about robots. I am passionate about the future of every-day robotics and automation, particularly flying robots.</p>
       </div>
     </div>
-    <!--div class="row half">
-      <div class="-2u 4u" align="center">
-        <section> <img src="images/mark-01.png" width="268" height="308" alt=""/> </section>
-      </div>
-      <div class="-1u 5u">
+    <div class="row">
+      <div class="12u">
         <section>
-          <header>
-            <h2>I am a</h2>
-          </header>
-          <p>
-          <li class="fa-ul">
-            <li>Roboticist</li>
-            <li>Husband</li>
-            <li>Father</li>
-            <li>And still in school...</li>
-          </li>
-          </p>
+          <footer>
+            <ul class="buttons">
+              <li><a href="MarkJCutlerResume" class="button small">Resume (pdf)</a></li>
+            </ul>
+          </footer>
         </section>
       </div>
-    </div--> 
+    </div>
   </header>
   
   <!-- One -->
