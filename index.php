@@ -61,6 +61,7 @@
 <nav id="nav">
   <ul>
     <li class="current"><a href="#main" class="scrolly">About</a></li>
+    <li class="current"><a href="#education" class="scrolly">Education</a></li>
     <li class="current"><a href="#experience" class="scrolly">Experience</a></li>
     <li class="current"><a href="#projects" class="scrolly">Projects</a></li>
     <li class="current"><a href="#pubs" class="scrolly">Publications</a></li>
@@ -124,7 +125,7 @@
   </header>
   
   <!-- One -->
-  <section id="experience" class="wrapper style2 container special-alt">
+  <section id="education" class="wrapper style2 container special-alt">
     <header class="container">
       <h2><strong>Education</strong></h2>
     </header>
@@ -163,7 +164,8 @@
           As an undergraduate at BYU I worked on several projects, including <a href="http://acl.mit.edu/papers/Cutler10_GNC.pdf" target="_blank">energy harvesting for autonomous sailplanes</a>, <a href="http://acl.mit.edu/papers/Thomson09_ASM.pdf" target="_blank">flapping flight optimization</a>, and <a href="http://acl.mit.edu/papers/Barret09_EJLA.pdf" target="_blank">theoretical linear algebra</a> (just enough to realize I like robots more than math theory).</p>
       </div>
     </div>
-    <header class="container">
+    <div id="experience"></div>
+    <header class="container" >
       <h2><strong>Experience</strong></h2>
     </header>
     <div class="row half">
@@ -267,8 +269,6 @@
             <h3><a href="var-pitch.php">Variable-Pitch Quadrotor</a></h3>
           </header>
           <p>Design, construction, and flight algorithms for a novel quadrotor capable of aggressive flight.</p>
-          <!--p>This project aims to develop a varible-pitch quadrotor capable of aggressive aerobatic manuvers which stretch beyond the current abilities of typical fixed-pitch quadrotors.</p>
-          <p>Fixed-pitch quadrotors are limited in their ability to make abrupt changes in thrust or to create negative thrust. The control bandwidth of a typical fixed-pitch quadrotor is restricted by the rotational inertia of the motor and propellers; however, with a variable-pitch design, the control bandwidth is increased. The variable-pitch actuators allow the propellers to change from a full positive pitch to a full negative pitch in rougly 0.07 seconds while the motor remains at maximum RPM, allowing the quadrotor to change from maximum positive thrust to maximum negative thrust extremely fast.</p--> 
         </section>
       </div>
     </div>
