@@ -297,7 +297,7 @@
   Month = {May},
   Organization = {IEEE},
   Title = {Efficient Reinforcement Learning for Robots using Informative Simulated Priors},
-  Year = {2015 (to appear}
+  Year = {2015}
 }
 </pre>
       <div>
