@@ -6,7 +6,7 @@
 <i class="fa fa-square-o fa-stack-2x"></i>
 <i class="fa fa-quote-left fa-stack-1x"></i>
 </span></button>
-  <a href="http://acl.mit.edu/papers/Barret09_EJLA.pdf" target="_blank" class="button icon"><span class="fa-stack fa-lg">
+  <a href="http://markjcutler.com/papers/Barret09_EJLA.pdf" target="_blank" class="button icon"><span class="fa-stack fa-lg">
 <i class="fa fa-square-o fa-stack-2x"></i>
 <i class="fa fa-cloud-download fa-stack-1x"></i>
 </span></a>
