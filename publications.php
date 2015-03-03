@@ -39,6 +39,7 @@
     <h2>Publications</h2>
   </header>
   
+  
   <!-- One -->
   <section class="wrapper style4 container">
     <div class="controls">
@@ -86,6 +87,7 @@
           <footer>
             <ul class="buttons">
               <li><a href="index.php#pubs" class="button small">Back</a></li>
+              <li><a href="https://scholar.google.com/citations?user=OG-5aqEAAAAJ&hl=en" class="button small" target="_blank">Google Scholar</a></li>
             </ul>
           </footer>
         </section>

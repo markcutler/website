@@ -7,11 +7,11 @@
   <ul>
     <li class="submenu"> <a href="">About</a>
       <ul>
-      <li><a href="MarkJCutlerResume.pdf" class="scrolly">Resume (pdf)</a></li>
         <li><a href="index.php#main" class="scrolly">Summary</a></li>
     	<li><a href="index.php#education" class="scrolly">Education</a></li>
     	<li><a href="index.php#experience" class="scrolly">Experience</a></li>
         <li><a href="index.php#interests" class="scrolly">Interests</a></li>
+        <li><a href="MarkJCutlerCV.pdf" class="scrolly">CV (pdf)</a></li>
       </ul>
     </li>
     <li class="current"><a href="index.php#projects" class="scrolly">Projects</a></li>

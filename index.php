@@ -62,11 +62,11 @@
   <ul>
     <li class="submenu"> <a href="">About</a>
       <ul>
-      <li><a href="MarkJCutlerResume.pdf" class="scrolly">Resume (pdf)</a></li>
         <li><a href="#main" class="scrolly">Summary</a></li>
     	<li><a href="#education" class="scrolly">Education</a></li>
     	<li><a href="#experience" class="scrolly">Experience</a></li>
         <li><a href="#interests" class="scrolly">Interests</a></li>
+        <li><a href="MarkJCutlerCV.pdf" class="scrolly">CV (pdf)</a></li>
       </ul>
     </li>
     <li class="current"><a href="#projects" class="scrolly">Projects</a></li>
@@ -113,7 +113,7 @@
         <section>
           <footer>
             <ul class="buttons">
-              <li><a href="MarkJCutlerResume" class="button small">Resume (pdf)</a></li>
+              <li><a href="MarkJCutlerCV.pdf" class="button small">Download CV</a></li>
             </ul>
           </footer>
         </section>
@@ -308,6 +308,7 @@
           <footer>
             <ul class="buttons">
               <li><a href="publications.php" class="button small">All Publications</a></li>
+              <li><a href="https://scholar.google.com/citations?user=OG-5aqEAAAAJ&hl=en" class="button small" target="_blank">Google Scholar</a></li>
             </ul>
           </footer>
         </section>
