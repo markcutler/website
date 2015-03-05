@@ -267,7 +267,7 @@
   author = {Mark Cutler and Thomas J. Walsh and Jonathan P. How},
   journal = {IEEE Transactions on Robotics},
   title = {Real-World Reinforcement Learning via Multi-Fidelity Simulators},
-  year = {2014 (submitted)},
+  year = {2014 (to appear)},
   organization = {IEEE}
 }
 </pre>
