@@ -70,25 +70,29 @@ the 'restraining' element.
         </div>
         <br>
         <p>This simple toy domain illustrates the progression of the algorithm. On the right, the 'real' world consists of an agent starting in the lower-left corner of the grid world and trying to find a policy to lead it to the upper-right goal region. Negative reward is a accumulated in the puddle. The worlds on the right consist of low- and medium-fidelity models of the real world. The learning agent transitions between levels several times, leveraging the lower-fidelity worlds to learn an optimal policy in the real world while minimizing the steps taken there.</p>
-        <!--
-first we'll need a container for our video,
-the 'restraining' element.
--->
+
         <div class="row">
           <div class="8u -2u 12u(2)">
             <div class="embed"> 
-              
-              <!--  
-    here's your embedded content,
-    whatever it may be..
-    -->
               <iframe width="1280" height="720" src="http://www.youtube.com/embed/c_d0Is3bxXA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
             </div>
-            <!--end embed--> 
           </div>
         </div>
         <br>
-        <p>Finally, the MFRL framework is demonstrated in this real-world remote-controlled (RC) car domain.  The RC car learns a policy for quickly racing around a track by efficiently utilizing two available simulators.</p>
+        <p>The MFRL framework is demonstrated in this real-world remote-controlled (RC) car domain.  The RC car learns a policy for quickly racing around a track by efficiently utilizing two available simulators.</p>
+        
+        <div class="row">
+          <div class="8u -2u 12u(2)">
+            <div class="embed"> 
+              <iframe width="1280" height="720" src="https://www.youtube.com/embed/kKClFx6l1HY?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+        <br>
+        <p>Recently, we have extended the MFRL framework to include domains with continuous representations of the states and actions.  Here, an inverted pendulum is balanced by using simulated data as a prior for both policy parameters the dynamics model.  Using the simulated data leads to learning with 3 times less data than without using a simulator.</p>
+        
+        
+        
       </section>
     </div>
   </section>

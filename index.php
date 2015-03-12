@@ -21,8 +21,8 @@
     - fix Attributions link when in mobile mode
     
     FEATURES TO ADD:
-    - break up experience and education
-    - link to cv and resume
+    - break up experience and education - DONE
+    - link to cv and resume - DONE
     - add awards section
     - add skills section
 -->
@@ -66,7 +66,7 @@
     	<li><a href="#education" class="scrolly">Education</a></li>
     	<li><a href="#experience" class="scrolly">Experience</a></li>
         <li><a href="#interests" class="scrolly">Interests</a></li>
-        <li><a href="MarkJCutlerCV.pdf" class="scrolly">CV (pdf)</a></li>
+        <li><a href="markjcutler_cv.pdf" class="scrolly">CV (pdf)</a></li>
       </ul>
     </li>
     <li class="current"><a href="#projects" class="scrolly">Projects</a></li>
@@ -105,7 +105,7 @@
     <img src="images/mark-01.png" width="268" height="308" alt=""/>
     <div class="row half">
       <div class="-2u 8u">
-        <p>I am a 28-year old roboticist, husband, and father.  I am currently finishing up a PhD in Robotics at MIT.  I grew up building and flying model airplanes and dreaming about robots. I am passionate about the future of every-day robotics and automation, particularly flying robots.</p>
+        <p>I am a 29-year old roboticist, husband, and father.  I am currently finishing up a PhD in robotics at MIT, working with Professor Jon How.  I grew up building and flying model airplanes and dreaming about robots. I am passionate about the future of every-day robotics and automation.</p>
       </div>
     </div>
     <div class="row">
@@ -155,7 +155,7 @@
         </header>
         Sept 2004 - April 2005, Sept 2007 - April 2010 </div>
       <div class="-1u 7u">
-        <p><strong>Bachelor -- Mechanical Engineering</strong><br>
+        <p><strong>B.S. -- Mechanical Engineering</strong><br>
           As an undergraduate at BYU I worked on several projects, including <a href="http://acl.mit.edu/papers/Cutler10_GNC.pdf" target="_blank">energy harvesting for autonomous sailplanes</a>, <a href="http://acl.mit.edu/papers/Thomson09_ASM.pdf" target="_blank">flapping flight optimization</a>, and <a href="http://acl.mit.edu/papers/Barret09_EJLA.pdf" target="_blank">theoretical linear algebra</a> (just enough to realize I like robots more than math theory).</p>
       </div>
     </div>
