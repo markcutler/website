@@ -286,7 +286,7 @@
   author = {Mark Cutler and Jonathan P. How},
   journal = {ASME Journal of Dynamic Systems, Measurement and Control},
   title = {Analysis and Control of a Variable-Pitch Quadrotor for Agile Flight},
-  year = {2014 (submitted)},
+  year = {2014 (under revision)},
   organization = {ASME}
 }	
 </pre>
