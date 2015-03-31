@@ -113,7 +113,7 @@
         <section>
           <footer>
             <ul class="buttons">
-              <li><a href="MarkJCutlerCV.pdf" class="button small">Download CV</a></li>
+              <li><a href="markjcutler_cv.pdf" class="button small">Download CV</a></li>
             </ul>
           </footer>
         </section>
