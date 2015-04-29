@@ -296,8 +296,8 @@
       <h2><strong>Selected Publications</strong></h2>
     </header>
     <div id="Publications" class="container_pub">
-      <?php include 'publications/Cutler14_ICRA.php'; ?>
-      <?php include 'publications/Cutler12_GNC.php'; ?>
+      <?php include 'publications/Cutler14_TRO.php'; ?>
+      <?php include 'publications/Cutler14_DSMC.php'; ?>
       <?php include 'publications/Cutler13_ICUAS.php'; ?>
       <?php include 'publications/Cutler11_GNC.php'; ?>
     </div>

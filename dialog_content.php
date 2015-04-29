@@ -267,7 +267,7 @@
   author = {Mark Cutler and Thomas J. Walsh and Jonathan P. How},
   journal = {IEEE Transactions on Robotics},
   title = {Real-World Reinforcement Learning via Multi-Fidelity Simulators},
-  year = {2014 (to appear)},
+  year = {2014 (in press)},
   organization = {IEEE}
 }
 </pre>
@@ -286,7 +286,7 @@
   author = {Mark Cutler and Jonathan P. How},
   journal = {ASME Journal of Dynamic Systems, Measurement and Control},
   title = {Analysis and Control of a Variable-Pitch Quadrotor for Agile Flight},
-  year = {2014 (under revision)},
+  year = {2014 (in press)},
   organization = {ASME}
 }	
 </pre>
