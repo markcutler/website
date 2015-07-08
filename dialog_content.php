@@ -11,7 +11,6 @@
   year = {2011},
   pages = {2978--2979},
   month = {May},
-  organization = {IEEE},
   url = {http://markjcutler.com/papers/Michini11_ICRA.pdf}
 }
 </pre>
@@ -52,7 +51,6 @@
   author = {Chen, Yufan and Cutler, Mark and How, Jonathan P.},
   booktitle = {IEEE International Conference on Robotics and Automation (ICRA)},
   month = {May},
-  organization = {IEEE},
   title = {Decoupled Multiagent Path Planning via Incremental Sequential Convex Programming},
   year = {2015},
   url = {http://markjcutler.com/papers/Chen15_ICRA.pdf}
@@ -76,7 +74,6 @@
   year = {2012},
   address = {Minneapolis, MN},
   month = {August},
-  organization = {AIAA},
   pages = {1--14},
   note = {Invited},
   url = {http://markjcutler.com/papers/Chowdhary12_GNC.pdf}
@@ -101,7 +98,6 @@
   pages={5409--5416},
   month={May},
   address={Karlsruhe, Germany},
-  organization = {IEEE},
   url = {http://markjcutler.com/papers/Chowdhary13_ICRA.pdf}
 }
 </pre>
@@ -259,16 +255,20 @@
       </div>
     </div>
   </div>
-  <div id="Cutler14_TRO_bib" class="dialog">
+  <div id="Cutler15_TRO_bib" class="dialog">
     <div class="dialog__overlay"></div>
     <div class="dialog__content">
       <pre>
-@article{Cutler14_TRO,
+@article{Cutler15_TRO,
   author = {Mark Cutler and Thomas J. Walsh and Jonathan P. How},
   journal = {IEEE Transactions on Robotics},
-  title = {Real-World Reinforcement Learning via Multi-Fidelity Simulators},
-  year = {2014 (in press)},
-  organization = {IEEE}
+  title = {Real-World Reinforcement Learning via Multifidelity Simulators},
+  year = {2015},
+  month = {June}, 
+  volume = {31}, 
+  number = {3}, 
+  pages = {655-671},
+  url = {http://markjcutler.com/papers/Cutler15_TRO.pdf}   
 }
 </pre>
       <div>
@@ -278,16 +278,20 @@
       </div>
     </div>
   </div>
-    <div id="Cutler14_DSMC_bib" class="dialog">
+    <div id="Cutler15_DSMC_bib" class="dialog">
     <div class="dialog__overlay"></div>
     <div class="dialog__content">
       <pre>
-@article{Cutler14_DSMC,
+@article{Cutler15_DSMC,
   author = {Mark Cutler and Jonathan P. How},
   journal = {ASME Journal of Dynamic Systems, Measurement and Control},
   title = {Analysis and Control of a Variable-Pitch Quadrotor for Agile Flight},
-  year = {2014 (in press)},
-  organization = {ASME}
+  year = {2015},
+  month = {October}, 
+  volume = {137}, 
+  number = {10}, 
+  pages = {101002--101002-14},
+  url = {http://markjcutler.com/papers/Cutler15_TRO.pdf}
 }	
 </pre>
       <div>
@@ -306,7 +310,6 @@
   author = {Cutler, Mark and How, Jonathan P.},
   booktitle = {IEEE International Conference on Robotics and Automation (ICRA)},
   month = {May},
-  organization = {IEEE},
   title = {Efficient Reinforcement Learning for Robots using Informative Simulated Priors},
   year = {2015},
   url = {http://markjcutler.com/papers/Cutler15_ICRA.pdf}

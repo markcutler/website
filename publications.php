@@ -61,7 +61,7 @@
       <?php include 'publications/Michini11_ICRA.php'; ?>
       <?php include 'publications/Cutler14_ICRA.php'; ?>
       <?php include 'publications/Cutler15_ICRA.php'; ?>
-      <?php include 'publications/Cutler14_TRO.php'; ?>
+      <?php include 'publications/Cutler15_TRO.php'; ?>
       <?php include 'publications/Chen15_ICRA.php'; ?>
       <?php include 'publications/Cutler12_GNC.php'; ?>
       <?php include 'publications/Ure13_ICUAS.php'; ?>
@@ -75,7 +75,7 @@
       <?php include 'publications/Cutler10_GNC.php'; ?>
       <?php include 'publications/Thomson09_ASM.php'; ?>
       <?php include 'publications/Barrett09_EJLA.php'; ?>
-      <?php include 'publications/Cutler14_DSMC.php'; ?>
+      <?php include 'publications/Cutler15_DSMC.php'; ?>
     </div>
   </section>
   
